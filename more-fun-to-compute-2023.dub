@@ -92,6 +92,7 @@ d5
 
 d6 $ sound "jazz:7(5,8)"
    # speed 1.2
+   # squiz 2.3
 
 xfadeIn 3 8 $ silence
 
