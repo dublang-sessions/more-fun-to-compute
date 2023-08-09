@@ -40,3 +40,7 @@ d2
   $ note "e1"
   # sound "supersiren"
   # gain 1.2 # shape 0.2
+
+#!espeak
+
+h
