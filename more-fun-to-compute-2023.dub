@@ -36,6 +36,7 @@ d1
   # shape 0.2
   |+ shape (slow 8 $ sine * 0.2)
   |+ gain (slow 8 $ sine * 0.2)
+  # squiz (${FREQ} / 50)
 
 d2
   $ slow 8
