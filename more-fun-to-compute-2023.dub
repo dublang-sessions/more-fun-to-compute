@@ -20,4 +20,4 @@ return 'hello world'
 
 ~synth = Synth(\saw);
 
-~synth.set(\freq, ${FREQ});
+~synth.set(\freq, ${FREQ} * 2);
