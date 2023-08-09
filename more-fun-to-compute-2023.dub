@@ -72,6 +72,7 @@ d4
   # vowel "[a|i|o]"
 
 d5
+  $ superimpose (chop 8)
   $ sound "hh27(5,8)"
   # n (irand 4)
   # orbit 5 # size 0.5 # room 0.5
