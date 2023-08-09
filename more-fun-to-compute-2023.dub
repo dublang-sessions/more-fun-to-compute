@@ -44,7 +44,7 @@ d2
 d3
   $ degradeBy 0.75
   $ note (scale "chromatic" (run 8))
-  # sound "bass"
+  # sound "bass1"
 
 #!espeak
 |repeat 25
