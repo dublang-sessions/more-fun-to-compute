@@ -4,14 +4,13 @@ return 'hello world'
 
 #!supercollider
 
-(
-SynthDef.new(\saw, {
+( SynthDef.new(\saw, {
 	arg cutoff = 1000, mul = 0.2, add = 1, freq = 400;
 	var sig;
 	sig = Saw.ar([30, 60]);
 	//cutoff.lag(0.02)
 	sig = RLPF.ar(sig, freq, mul, add);
 	Out.ar(0, sig);
-}).add;
+}).add; )
+
 ~synth = Synth(\saw);
-)
