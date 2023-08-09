@@ -35,4 +35,4 @@ d1
   |+ gain (slow 8 $ sine * 0.2)
 
 d2
-  $ sound "supersnare"
+  $ sound "supersiren"
