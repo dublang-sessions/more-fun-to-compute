@@ -21,19 +21,15 @@ s.scope;
 
 ~synth = Synth(\saw);
 
-~synth.set(\freq, ${FREQ} * 2);
-
 ~synth.set(\add, 0.9);
+~synth.set(\freq, ${FREQ} * 2);
 ~synth.set(\mul, 1 / ${SEED});
+
 ~synth.set(\freq, ${FREQ} * 2);
 
 ~synth.free;
 
 #!tidalcycles
-
-d1 $ sound "arpy"
-   # vowel "a"
-
 
 d1
   $ slow 2
