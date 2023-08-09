@@ -100,7 +100,6 @@ d6
   # shape 0.4
 
 d7
-  $ slow 2
   $ note (scale "chromatic" 1)
   $ note "c'maj"
   # sound "moog"
