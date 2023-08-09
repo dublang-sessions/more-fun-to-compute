@@ -36,6 +36,7 @@ d1
 
 d2
   $ slow 8
+  $ off 2 (|- up "8")
   $ note "e1"
   # sound "supersiren"
   # gain 1.2 # shape 0.1
