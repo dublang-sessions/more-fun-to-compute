@@ -62,6 +62,11 @@ d3
   # lpf 1500
   # shape 0.3 # gain 1.2
 
+d4
+  $ slow 8
+  $ stut 8 0.5 0.25
+  $ sound "cp" 
+
 xfadeIn 3 8 $ silence
 
 hush
