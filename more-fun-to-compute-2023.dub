@@ -36,4 +36,4 @@ d1
 
 d2
   $ sound "supernoise"
-  # gain 0.5
+  # gain 0.9
