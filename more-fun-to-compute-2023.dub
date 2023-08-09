@@ -65,8 +65,7 @@ xfadeIn 3 8 $ silence
 hush
 
 #!espeak
-
-|repeat 30
+|repeat 35
 
 resistance.
 is.
