@@ -46,7 +46,7 @@ d3
   $ note (scale "chromatic" (run 8))
   # sound "bass2:3"
   # lpf 800
-  # shape 0.2 # gain 1
+  # shape 0.2 # gain 1.2
 
 #!espeak
 |repeat 25
