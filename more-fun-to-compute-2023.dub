@@ -9,6 +9,8 @@ vim.env.SEED = math.random(99) + 1
 
 |repeat 1
 
+s.scope;
+
 (
   SynthDef.new(\saw, {
     arg cutoff = 1000, mul = 0.2, add = 1, freq = 400;
@@ -31,6 +33,7 @@ vim.env.SEED = math.random(99) + 1
 
 d1 $ sound "arpy"
    # vowel "a"
+
 
 d1
   $ slow 2
