@@ -1,6 +1,6 @@
 #!dublang
 
-return vim.env.FREQ = math.random(200)
+vim.env.FREQ = math.random(200)
 
 return 'hello world'
 
