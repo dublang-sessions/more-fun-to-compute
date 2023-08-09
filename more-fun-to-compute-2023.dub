@@ -29,7 +29,7 @@ vim.env.SEED = math.random(99) + 1
 #!tidalcycles
 
 d1
-  $ slow 4
+  $ slow 2
   $ stut 2 0.75 0.25
   $ sound "super808*4" # n "<0.2 0.2 02 0.4 0.4>"
   # gain 1.2
