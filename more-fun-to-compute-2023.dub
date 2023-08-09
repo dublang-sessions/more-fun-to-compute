@@ -90,7 +90,9 @@ d5
   # orbit 5 # size 0.5 # room 0.5
   |+ room (rand * 0.4) |+ size (rand * 0.4)
 
-d6 $ sound "jazz:7(5,8)"
+d6
+  $ fast 2
+  $ sound "jazz:7(5,8)"
    # speed 1.2
    # squiz 2.3
 
