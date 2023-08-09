@@ -66,6 +66,7 @@ d4
   $ slow 8
   $ stut 8 0.5 0.25
   $ sound "cp" 
+  # speed 0.8
 
 xfadeIn 3 8 $ silence
 
