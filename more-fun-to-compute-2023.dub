@@ -68,9 +68,12 @@ xfadeIn 3 8 $ silence
 |repeat 25
 
 resistance
+
 is
 futile
 
 #!obs
 
 scene.set scene1
+
+record.start
