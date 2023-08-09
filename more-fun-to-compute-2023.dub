@@ -79,7 +79,7 @@ be assimilated.
 
 |repeat 5
 
-scene.set scene3
+scene.set scene4
 
 record.start
 
