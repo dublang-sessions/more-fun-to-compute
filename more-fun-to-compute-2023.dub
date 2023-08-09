@@ -35,5 +35,5 @@ d1
   |+ gain (slow 8 $ sine * 0.2)
 
 d2
-  $ note "e"
+  $ note "e2"
   # sound "supersiren"
