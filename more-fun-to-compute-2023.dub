@@ -71,6 +71,10 @@ d4
   # shape 0.4
   # vowel "[a|i|o]"
 
+d5
+  $ sound "hh27(5,8)"
+  # n (irand 4)
+
 xfadeIn 3 8 $ silence
 
 hush
