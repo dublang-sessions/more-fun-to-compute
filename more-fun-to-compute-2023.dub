@@ -127,7 +127,7 @@ human beings.
 #!obs
 |repeat 2
 
-scene.set scene${SCENE}
+scene.set scene1
 
 record.start
 
