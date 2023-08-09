@@ -1,5 +1,7 @@
 #!dublang
 
+return vim.env.FREQ = math.random(200)
+
 return 'hello world'
 
 #!supercollider
@@ -17,3 +19,5 @@ return 'hello world'
 )
 
 ~synth = Synth(\saw);
+
+~synth.set(\freq, ${FREQ});
