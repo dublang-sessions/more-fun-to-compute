@@ -9,7 +9,7 @@ vim.env.SEED = math.random(99) + 1
 
 (
   SynthDef.new(\saw, {
-	  arg cutoff = 1000, mul = 0.2, add = 1, freq = 400;
+    arg cutoff = 1000, mul = 0.2, add = 1, freq = 400;
     var sig;
     sig = Saw.ar([30, 60]);
     sig = RLPF.ar(sig, freq, mul, add);
@@ -22,6 +22,8 @@ vim.env.SEED = math.random(99) + 1
 ~synth.set(\add, 0.1);
 ~synth.set(\mul, 1 / ${SEED});
 ~synth.set(\freq, ${FREQ} * 2);
+
+~synth.free;
 
 #!tidalcycles
 
