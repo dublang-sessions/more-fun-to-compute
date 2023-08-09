@@ -1,7 +1,7 @@
 #!dublang
 |repeat 5
 
-vim.env.FREQ = math.random(200)
+vim.env.FREQ = math.random(200) + 100
 
 #!supercollider
 |repeat 1
