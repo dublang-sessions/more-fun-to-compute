@@ -21,11 +21,9 @@ s.scope;
 
 ~synth = Synth(\saw);
 
-~synth.set(\add, 0.8);
+~synth.set(\add, 0.7);
 ~synth.set(\freq, ${FREQ} * 2);
 ~synth.set(\mul, 1 / ${SEED});
-
-~synth.set(\freq, ${FREQ} * 2);
 
 ~synth.free;
 
