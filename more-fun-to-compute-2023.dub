@@ -101,7 +101,7 @@ d6
 
 d7
   $ slow 8
-  $ note (scale "chromatic" "6")
+  $ note (scale "chromatic" (irand 32))
   $ sound "moog"
   # attack 2 # hold 2 # release 2
 
