@@ -102,9 +102,10 @@ d6
 d7
   $ slow 8
   $ note (scale "chromatic" 1)
-  $ sound "moog"
+  $ note "c'maj"
+  # sound "moog"
   # attack 2 # hold 2 # release 2
-  # gain 1.2 # shape 0.2
+  # gain 1.2 # shape 0
 
 xfadeIn 3 8 $ silence
 
