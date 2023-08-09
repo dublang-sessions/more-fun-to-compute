@@ -29,6 +29,8 @@ vim.env.SEED = math.random(99) + 1
 
 #!tidalcycles
 
+d1 $ sound "arpy"
+
 d1
   $ slow 2
   $ stut 2 0.75 0.25
