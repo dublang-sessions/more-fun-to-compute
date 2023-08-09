@@ -46,7 +46,7 @@ d3
   $ often (superimpose (chop 4 . rev))
   $ note (scale "chromatic" (run 16))
   # sound "bass2:3"
-  # lpf 800
+  # lpf 700
   # shape 0.2 # gain 1.2
 
 #!espeak
