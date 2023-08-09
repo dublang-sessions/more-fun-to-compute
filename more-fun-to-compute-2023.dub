@@ -91,6 +91,7 @@ d5
   |+ room (rand * 0.4) |+ size (rand * 0.4)
 
 d6 $ sound "jazz:7(5,8)"
+   # speed 1.2
 
 xfadeIn 3 8 $ silence
 
