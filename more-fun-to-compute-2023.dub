@@ -5,8 +5,7 @@ vim.env.FREQ = math.random(200) + 100
 vim.env.SEED = math.random(99) + 1
 
 #!supercollider
-
-|repeat 1
+|repeat 2
 
 s.scope;
 
@@ -22,7 +21,9 @@ s.scope;
 
 ~synth = Synth(\saw);
 
-~synth.set(\add, 0.1);
+~synth.set(\freq, ${FREQ} * 2);
+
+~synth.set(\add, 0.9);
 ~synth.set(\mul, 1 / ${SEED});
 ~synth.set(\freq, ${FREQ} * 2);
 
