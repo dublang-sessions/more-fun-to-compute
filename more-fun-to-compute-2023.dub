@@ -106,7 +106,7 @@ human beings.
 #!obs
 |repeat 5
 
-scene.set scene6
+scene.set scene${SCENE}
 
 record.start
 
