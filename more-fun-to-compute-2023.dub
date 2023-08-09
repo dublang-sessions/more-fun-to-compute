@@ -36,9 +36,10 @@ d1
   # gain 1.2
   # shape 0.3
   # attack 1 # hold 2 # rel 2
-  |+ shape (slow 8 $ sine * 0.2)
+  |+ shape (slow 16 $ sine * 0.2)
   |+ gain (slow 8 $ sine * 0.2)
   # squiz (${FREQ} / 50)
+  # pan (slow 16 $ sine)
 
 d2
   $ slow 8
