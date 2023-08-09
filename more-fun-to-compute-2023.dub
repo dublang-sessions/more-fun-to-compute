@@ -58,8 +58,8 @@ d3
   $ often (superimpose (chop 4 . rev))
   $ note (scale "chromatic" (run 16))
   # sound "bass2:3"
-  # lpf 700
-  # shape 0.2 # gain 1.2
+  # lpf 1000
+  # shape 0.1 # gain 1.0
 
 xfadeIn 3 8 $ silence
 
