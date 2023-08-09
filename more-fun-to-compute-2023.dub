@@ -1,5 +1,4 @@
 #!dublang
-
 |repeat 5
 
 vim.env.FREQ = math.random(200) + 100
@@ -72,6 +71,6 @@ futile.
 
 #!obs
 
-scene.set scene1
+scene.set scene2
 
 record.start
