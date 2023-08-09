@@ -35,7 +35,7 @@ d1 $ sound "arpy"
 d1
   $ slow 2
   $ stut 2 0.75 0.25
-  $ sound "super808*4" # n "<0.2 0.2 02 0.4 0.4>"
+  $ sound "super808" # n "<0.2 0.2 02 0.4 0.4>"
   # gain 1.2
   # shape 0.2
   # attack 1 # hold 2 # rel 2
