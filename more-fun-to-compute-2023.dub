@@ -19,7 +19,7 @@ vim.env.SEED = math.random(99) + 1
 
 ~synth = Synth(\saw);
 
-~synth.set(\add, 0.6);
+~synth.set(\add, 0.5);
 ~synth.set(\mul, 1 / ${SEED});
 ~synth.set(\freq, ${FREQ} * 2);
 
