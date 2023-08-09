@@ -68,6 +68,7 @@ d4
   $ sound "cp"
   # speed 0.2
   # shape 0.4
+  # vowel "[a|i|o]"
 
 xfadeIn 3 8 $ silence
 
