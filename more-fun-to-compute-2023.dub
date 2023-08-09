@@ -55,8 +55,8 @@ d3
   $ degradeBy 0.25
   $ note (scale "chromatic" (run 4))
   # sound "bass2:3"
-  # lpf 2000
-  # shape 0.2 # gain 1.0
+  # lpf 1500
+  # shape 0.3 # gain 1.2
 
 xfadeIn 3 8 $ silence
 
