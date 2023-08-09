@@ -42,7 +42,7 @@ d2
   # gain 1.2 # shape 0.2
 
 d3
-  $ degradeBy 0.75
+  $ degradeBy 0.5
   $ note (scale "chromatic" (run 8))
   # sound "bass2:3(3,8)"
 
