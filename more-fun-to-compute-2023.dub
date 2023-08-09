@@ -75,7 +75,7 @@ futile.
 
 #!obs
 
-scene.set scene2
+scene.set scene1
 
 record.start
 
