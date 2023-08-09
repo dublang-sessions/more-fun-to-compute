@@ -99,6 +99,12 @@ d6
   # squiz 2.3
   # shape 0.4
 
+d7
+  $ slow 8
+  $ note (scale "chromatic" "6")
+  $ sound "moog"
+  # attack 2 # hold 2 # release 2
+
 xfadeIn 3 8 $ silence
 
 hush
