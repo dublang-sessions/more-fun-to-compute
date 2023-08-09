@@ -47,7 +47,7 @@ d1
   # pan (slow 16 $ sine)
 
 d2
-  $ slow 8
+  $ slow 4
   $ off 2 ((|+ up (${FREQ} / 5)) . (|+ gain 0.2))
   $ note "[e1|c1|d1]"
   # sound "supersiren"
