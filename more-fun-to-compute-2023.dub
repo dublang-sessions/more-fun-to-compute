@@ -101,7 +101,7 @@ d6
 
 d7
   $ slow 8
-  $ note "[c'maj, c c c c]"
+  $ note "[c'maj, c*8]"
   # sound "superfm"
   # attack 1 # hold 4 # release 1
   # gain 1.2 # shape 0.4
