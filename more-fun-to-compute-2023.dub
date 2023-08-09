@@ -64,7 +64,6 @@ d3
 xfadeIn 3 8 $ silence
 
 #!espeak
-
 |repeat 25
 
 resistance.
