@@ -72,7 +72,7 @@ d4
   # vowel "[a|i|o]"
 
 d5
-  $ often (|+ gain 0.2)
+  $ often (|+ gain 0.3)
   $ superimpose (chop 8)
   $ sound "hh27(5,8)"
   # n (irand 4)
