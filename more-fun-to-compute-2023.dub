@@ -106,7 +106,7 @@ human beings.
 
 |repeat 5
 
-scene.set scene5
+scene.set scene6
 
 record.start
 
