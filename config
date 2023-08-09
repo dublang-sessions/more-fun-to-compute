@@ -1,0 +1,5 @@
+# dublang 0.4.0 (unreleased)
+
+PLUGINS="espeak git gource obs supercollider tidalcycles fudi"
+
+# vim: ft=config
