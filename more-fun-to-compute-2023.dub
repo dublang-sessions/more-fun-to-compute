@@ -49,6 +49,7 @@ d2
   # gain 1.0 # shape 0.1
   # pan (rand)
   |+ shape (rand * 0.3)
+  # tremr (irand 3) # tremdp (irand 3)
 
 d3
   $ degradeBy 0.25
