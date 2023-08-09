@@ -1,8 +1,9 @@
 #!dublang
-|repeat 5
+|repeat 3
 
 vim.env.FREQ = math.random(200) + 100
 vim.env.SEED = math.random(99) + 1
+vim.env.SCENE = math.random(6)
 
 #!supercollider
 |repeat 5
@@ -103,7 +104,6 @@ be assimilated.
 human beings.
 
 #!obs
-
 |repeat 5
 
 scene.set scene6
