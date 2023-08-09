@@ -6,8 +6,6 @@ vim.env.FREQ = math.random(200) + 100
 #!supercollider
 |repeat 1
 
-	//cutoff.lag(0.02)
-
 (
   SynthDef.new(\saw, {
 	  arg cutoff = 1000, mul = 0.2, add = 1, freq = 400;
@@ -20,4 +18,5 @@ vim.env.FREQ = math.random(200) + 100
 
 ~synth = Synth(\saw);
 
+~synth.set(\mul, 0.2);
 ~synth.set(\freq, ${FREQ} * 2);
