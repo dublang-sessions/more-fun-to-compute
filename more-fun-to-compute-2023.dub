@@ -54,6 +54,8 @@ d3
   # lpf 700
   # shape 0.2 # gain 1.2
 
+xfadeIn 1 8 $ silence
+
 #!espeak
 
 |repeat 25
