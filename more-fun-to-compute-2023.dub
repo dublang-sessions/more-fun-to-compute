@@ -45,6 +45,8 @@ d3
   $ degradeBy 0.5
   $ note (scale "chromatic" (run 8))
   # sound "bass2:3"
+  # lpf 1000
+  # shape 0.2 # gain 1.2
 
 #!espeak
 |repeat 25
