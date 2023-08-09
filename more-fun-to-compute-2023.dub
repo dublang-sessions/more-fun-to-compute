@@ -75,7 +75,10 @@ d5
   $ rarely (degrade)
   $ often (|+ gain 0.3)
   $ superimpose (chop 8)
-  $ sound "hh27(5,8)"
+  $ stack[
+    sound "hh27(5,8)",
+    degrade $ sound "hh*8"
+  ]
   # n (irand 4)
   # gain 1
   # orbit 5 # size 0.5 # room 0.5
