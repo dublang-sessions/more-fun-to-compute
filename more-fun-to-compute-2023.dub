@@ -30,6 +30,7 @@ vim.env.SEED = math.random(99) + 1
 #!tidalcycles
 
 d1 $ sound "arpy"
+   # vowel "a"
 
 d1
   $ slow 2
