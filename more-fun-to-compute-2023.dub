@@ -101,7 +101,7 @@ d6
 
 d7
   $ note "c'maj"
-  # sound "superpwm"
+  # sound "superfm"
 
   # attack 2 # hold 2 # release 2
   # gain 1.2 # shape 0.2
