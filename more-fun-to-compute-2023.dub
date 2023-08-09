@@ -39,4 +39,4 @@ d2
   $ off 2 ((|- up "8") . (|+ gain 0.2))
   $ note "e1"
   # sound "supersiren"
-  # gain 1.2 # shape 0.1
+  # gain 1.2 # shape 0.2
