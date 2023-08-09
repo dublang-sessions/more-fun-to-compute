@@ -54,9 +54,8 @@ d2
   # gain 1.2 # shape 0.2
 
 d3
-  $ degradeBy 0.75
-  $ often (superimpose (chop 4 . rev))
-  $ note (scale "chromatic" (run 16))
+  $ degradeBy 0.25
+  $ note (scale "chromatic" (run 4))
   # sound "bass2:3"
   # lpf 1000
   # shape 0.1 # gain 1.0
