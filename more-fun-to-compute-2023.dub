@@ -57,7 +57,7 @@ d2
   # tremr (irand 3) # tremdp (irand 3)
 
 d3
-  $ often (|- speed "0.7")
+  $ often (|- speed "0.2")
   $ degradeBy 0.25
   $ note (scale "chromatic" (run 4))
   # sound "bass2:3"
