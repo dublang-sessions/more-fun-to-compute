@@ -22,3 +22,9 @@ vim.env.SEED = math.random(99) + 1
 ~synth.set(\add, 1);
 ~synth.set(\mul, 1 / ${SEED});
 ~synth.set(\freq, ${FREQ} * 2);
+
+#!tidalcycles
+
+d1
+  $ slow 4
+  $ sound "super808" # n 0.2
