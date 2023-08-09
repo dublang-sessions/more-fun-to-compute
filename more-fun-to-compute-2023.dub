@@ -6,12 +6,14 @@ return 'hello world'
 
 	//cutoff.lag(0.02)
 
-( SynthDef.new(\saw, {
-	arg cutoff = 1000, mul = 0.2, add = 1, freq = 400;
-	var sig;
-	sig = Saw.ar([30, 60]);
-	sig = RLPF.ar(sig, freq, mul, add);
-	Out.ar(0, sig);
-}).add; )
+(
+  SynthDef.new(\saw, {
+	  arg cutoff = 1000, mul = 0.2, add = 1, freq = 400;
+    var sig;
+    sig = Saw.ar([30, 60]);
+    sig = RLPF.ar(sig, freq, mul, add);
+    Out.ar(0, sig);
+  }).add;
+)
 
 ~synth = Synth(\saw);
