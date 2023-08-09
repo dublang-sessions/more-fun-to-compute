@@ -70,3 +70,7 @@ xfadeIn 3 8 $ silence
 resistance
 is
 futile
+
+#!obs
+
+scene.set 1
