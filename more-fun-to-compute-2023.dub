@@ -42,6 +42,7 @@ d2
   # gain 1.2 # shape 0.2
 
 #!espeak
+|repeat 25
 
 resistance
 is
