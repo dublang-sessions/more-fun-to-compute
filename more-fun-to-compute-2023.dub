@@ -43,6 +43,7 @@ d2
 
 d3
   $ degradeBy 0.75
+  $ often (superimpose (chop 4 . rev))
   $ note (scale "chromatic" (run 16))
   # sound "bass2:3"
   # lpf 800
