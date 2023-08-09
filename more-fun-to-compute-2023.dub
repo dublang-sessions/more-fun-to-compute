@@ -72,12 +72,14 @@ hush
 resistance.
 is.
 futile.
+you will.
+be assimilated.
 
 #!obs
 
 |repeat 5
 
-scene.set scene2
+scene.set scene3
 
 record.start
 
