@@ -21,8 +21,10 @@ s.scope;
 
 ~synth = Synth(\saw);
 
-~synth.set(\add, 0.7);
-~synth.set(\freq, ${FREQ} * 2);
+~synth.set(\add, 0.6);
+~synth.set(\freq, ${FREQ} * 1.5);
+~synth.set(\mul, 0.2);
+
 ~synth.set(\mul, 1 / ${SEED});
 
 ~synth.free;
@@ -70,6 +72,8 @@ is.
 futile.
 
 #!obs
+
+|repeat 5
 
 scene.set scene2
 
