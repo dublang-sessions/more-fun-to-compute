@@ -104,7 +104,7 @@ be assimilated.
 human beings.
 
 #!obs
-|repeat 5
+|repeat 2
 
 scene.set scene${SCENE}
 
