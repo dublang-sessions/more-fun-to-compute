@@ -3,9 +3,8 @@
 
 vim.env.FREQ = math.random(200)
 
-return 'hello world'
-
 #!supercollider
+|repeat 1
 
 	//cutoff.lag(0.02)
 
