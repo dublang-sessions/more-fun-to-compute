@@ -78,3 +78,5 @@ futile.
 scene.set scene2
 
 record.start
+
+record.stop
