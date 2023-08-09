@@ -18,6 +18,6 @@ vim.env.FREQ = math.random(200) + 100
 
 ~synth = Synth(\saw);
 
-~synth.set(\add, 0.5);
+~synth.set(\add, 1);
 ~synth.set(\mul, ${FREQ} / 600);
 ~synth.set(\freq, ${FREQ} * 2);
