@@ -1,21 +1,34 @@
 #!socat
 
-|repeat 2
+cycle mute
+set loop inf
+video "videos-blade-runner:01"
 
-loadfile /home/joenio/art/videos/videos-12-monkeys/slice01.avi.mp4
+#!socat
+|repeat 6
 
-loadfile /home/joenio/art/videos/videos-12-monkeys/slice03.avi.mp4
+video "videos-12-monkeys:01"
 
-loadfile ${VIDEOS}/videos-12-monkeys/03.mp4
+video "videos-1984:04"
 
-loadfile /home/joenio/art/videos/videos-1984/slice01.avi.mp4
+video "videos-dune:${VIDEO}"
+vf set "cas:strength=${RAND}"
+
+vf set "cas:strength=1"
+
+seek 1845 absolute
+
+show-text "teste teste hello world la la la LALALALA aaaaaaaaaaaaaaaaaaaaaaa a\n aaaaaaaaaaaa aa aa aa aa"
 
 seek -2
 
-set loop inf
+ab-loop
 
 #!dublang
-|repeat 3
+|repeat 5
+
+vim.env.VIDEO = string.format("%02d", math.random(10))
+vim.env.RAND = string.format("%f", math.random())
 
 vim.env.FREQ = math.random(200) + 100
 vim.env.SEED = math.random(99) + 1
