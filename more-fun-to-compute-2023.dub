@@ -50,7 +50,7 @@ vf set "vibrance:intensity=1:rbal=-10:gbal=10:bbal=10:alternate=1"
 
 vf set "vignette=1"
 
-vf set "zoompan=z='min(zoom+0.0015,1.5)':d=700:x='if(gte(zoom,1.5),x,x+1/a)':y='if(gte(zoom,1.5),y,y+1)':s=640x360"
+vf set "zoompan"
 
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
