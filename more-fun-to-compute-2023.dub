@@ -28,7 +28,7 @@ vf set "boxblur=luma_radius=12:luma_power=0"
 
 vf set "chromakey=black"
 
-vf set "colorbalance:rs=-0.7:rm=-0.9:rh=1,chromakey=black"
+vf set "colorbalance:rs=-0.7:rm=-0.9:rh=1,chromakey=gray"
 
 
 vf set "alphaextract"
