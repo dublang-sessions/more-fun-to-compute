@@ -28,6 +28,7 @@ vf set "boxblur=luma_radius=12:luma_power=0"
 
 vf set "chromakey=black"
 
+colorbalance=rs=.3
 
 
 vf set "alphaextract"
