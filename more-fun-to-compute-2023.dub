@@ -57,6 +57,8 @@ ab-loop
 #!dublang
 |repeat 2
 
+vim.env.COUNT = 1
+
 vim.env.COUNT = vim.env.COUNT + 1
 
 vim.env.VIDEO = string.format("%02d", math.random(10))
