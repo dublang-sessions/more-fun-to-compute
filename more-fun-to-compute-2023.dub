@@ -1,6 +1,6 @@
 #!socat
 
-loadfile /home/joenio/art/videos/videos-12-monkeys/slice02.avi.mp4
+loadfile /home/joenio/art/videos/videos-12-monkeys/slice01.avi.mp4
 
 set loop inf
 
