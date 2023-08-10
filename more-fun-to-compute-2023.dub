@@ -27,7 +27,7 @@ vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
 vf set "boxblur=luma_radius=12:luma_power=0"
 
 vf set "chromakey=black"
-vf set "chromakey=cyan,colorbalance:rs=-0.7:rm=-0.9:rh=1"
+vf set "colorbalance:rs=-0.7:rm=-0.9:rh=1,chromakey=red"
 
 
 vf set "alphaextract"
