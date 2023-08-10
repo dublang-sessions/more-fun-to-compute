@@ -18,6 +18,11 @@ vf set "cas:strength=0.6"
 
 set alpha blend
 
+vf set "addroi"
+
+video filters reference
+https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
+
 seek 1845 absolute
 
 show-text "teste teste hello world la la la LALALALA aaaaaaaaaaaaaaaaaaaaaaa a\n aaaaaaaaaaaa aa aa aa aa"
