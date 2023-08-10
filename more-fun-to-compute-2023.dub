@@ -42,7 +42,7 @@ vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131,chrom
 
 vf set "scroll:h=0.001:v=0.001"
 
-vf set "tmix=frames=3:weights=1 1 1 1 1 1 1"
+vf set "tmix=frames=12:weights=1 1 1 1 1 1 1"
 
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
