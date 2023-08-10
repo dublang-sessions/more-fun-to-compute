@@ -19,7 +19,7 @@ vf set "cas:strength=0.99"
 
 set alpha blend
 
-vf set "addroi=x=5:y=5:w=6"
+vf set "addroi:x=5:y=5:w=6,cas:strength=0.99"
 
 
 video filters reference
