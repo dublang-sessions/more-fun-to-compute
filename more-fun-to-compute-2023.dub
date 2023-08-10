@@ -22,7 +22,7 @@ set alpha blend
 
 vf set "avgblur:sizeX=12:sizeY=12,cas:strength=1"
 
-vf set "bilateral:sigmaS=200:sigmaR=0.25"
+vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
 
 
 
