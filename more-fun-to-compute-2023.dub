@@ -59,7 +59,7 @@ ab-loop
 
 vim.env.COUNT = 1
 
-vim.env.COUNT = vim.env.COUNT + 1
+vim.env.COUNT = vim.env.COUNT + 10
 return vim.env.COUNT
 
 vim.env.VIDEO = string.format("%02d", math.random(10))
