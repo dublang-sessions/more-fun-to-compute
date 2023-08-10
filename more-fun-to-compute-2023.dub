@@ -44,6 +44,8 @@ vf set "scale=w=200:h=100"
 
 vf set "scale=w=2*iw:h=2*ih"
 
+vf set "scale=w=iw/2:h=ih/2"
+
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
 
