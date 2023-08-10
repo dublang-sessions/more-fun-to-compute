@@ -42,6 +42,8 @@ vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131,chrom
 
 vf set "scale=w=200:h=100"
 
+vf set "scale=w=2*iw:h=2*ih"
+
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
 
