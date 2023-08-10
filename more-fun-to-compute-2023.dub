@@ -15,7 +15,7 @@ video "videos-1984:04"
 video "videos-dune:${VIDEO}"
 vf set "cas:strength=${RAND}"
 
-vf set "cas:strength=2"
+vf set "cas:strength=0.98"
 
 set alpha blend
 
