@@ -15,12 +15,17 @@ video "videos-1984:04"
 video "videos-dune:${VIDEO}"
 vf set "cas:strength=${RAND}"
 
-vf set "cas:strength=0.99"
+vf set "cas:strength=0.6"
 
 set alpha blend
 
-vf set "addroi:x=5:y=5:w=6,cas:strength=0.99"
 
+vf set "avgblur:sizeX=4:sizeY=4,cas:strength=0.99"
+
+
+
+
+vf set "alphaextract"
 
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
