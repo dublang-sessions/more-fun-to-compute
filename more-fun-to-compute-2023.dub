@@ -55,7 +55,9 @@ seek -2
 ab-loop
 
 #!dublang
-|repeat 5
+|repeat 2
+
+vim.env.COUNT = vim.env.COUNT + 1
 
 vim.env.VIDEO = string.format("%02d", math.random(10))
 vim.env.RAND = string.format("%f", math.random())
