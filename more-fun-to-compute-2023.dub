@@ -8,7 +8,7 @@ loadfile ${VIDEOS}/videos-12-monkeys/03.mp4
 
 loadfile /home/joenio/art/videos/videos-1984/slice01.avi.mp4
 
-seek -10
+seek -2
 
 set loop inf
 
