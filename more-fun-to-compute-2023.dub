@@ -40,7 +40,7 @@ vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131"
 vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131,chromakey=white,colorize:hue=${COUNT}"
 
 
-vf set "scroll:h=0.6"
+vf set "scroll:h=0.1"
 
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
