@@ -16,7 +16,7 @@ vf set "cas:strength=${RAND}"
 
 vf set "cas:strength=0.6"
 
-alpha 250
+alpha 0
 
 seek 1845 absolute
 
