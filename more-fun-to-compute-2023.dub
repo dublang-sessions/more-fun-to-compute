@@ -18,7 +18,7 @@ vf set "cas:strength=0.6"
 
 set alpha blend
 
-vf set "addroi:x=5,y=5"
+vf set "addroi:x=5,y=5,w=6"
 
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
