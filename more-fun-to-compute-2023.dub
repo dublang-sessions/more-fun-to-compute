@@ -39,7 +39,7 @@ vf set "colorchannelmixer=.3:.4:.3:0:.3:.4:.3:0:.3:.4:.3"
 vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131"
 
 
-vf set "colorize:hue=27"
+vf set "colorize:hue=29"
 
 vf set "alphaextract"
 
