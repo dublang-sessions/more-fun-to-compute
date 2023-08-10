@@ -24,7 +24,7 @@ vf set "avgblur:sizeX=12:sizeY=12,cas:strength=1"
 
 vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
 
-vf set "blackdetect:d=0.1:pic_th=2"
+vf set "blend=all_expr='A*(if(gte(T,10),1,T/10))+B*(1-(if(gte(T,10),1,T/10)))'"
 
 
 
