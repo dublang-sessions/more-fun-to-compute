@@ -32,7 +32,7 @@ vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
 vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=2:sizeY=4,cas:strength=0.97"
 
-vf set "colorcontrast:rc=-1"
+vf set "colorcontrast:rc=-1:gm=1"
 
 
 vf set "alphaextract"
