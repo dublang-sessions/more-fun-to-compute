@@ -44,6 +44,8 @@ vf set "scroll:h=0.001:v=0.001"
 
 vf set "tmix=frames=12:weights=1 2 4 5 1 1 1"
 
+vf set "transpose=dir=1:passthrough=portrait"
+
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
 
