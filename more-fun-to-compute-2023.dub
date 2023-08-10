@@ -20,6 +20,8 @@ set alpha blend
 
 vf set "addroi:x=5,y=5,w=6"
 
+vf set "addroi=iw/4:ih/4:iw/2:ih/2:-1/10"
+
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
 
