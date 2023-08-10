@@ -5,6 +5,7 @@ set loop inf
 video "videos-blade-runner:01"
 
 #!socat
+
 |repeat 6
 
 video "videos-12-monkeys:01"
