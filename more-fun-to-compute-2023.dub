@@ -30,6 +30,8 @@ vf set "chromakey=black"
 
 vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
+vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=12:sizeY=12,cas:strength=1"
+
 
 vf set "alphaextract"
 
