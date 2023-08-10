@@ -20,7 +20,7 @@ vf set "cas:strength=0.6"
 set alpha blend
 
 
-vf set "avgblur:sizeX=4:sizeY=8,cas:strength=1"
+vf set "avgblur:sizeX=4:sizeY=16,cas:strength=1"
 
 
 
