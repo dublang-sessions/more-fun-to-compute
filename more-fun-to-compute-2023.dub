@@ -1,3 +1,7 @@
+#!socat
+
+loadfile /home/joenio/art/videos/videos-12-monkeys/slice02.avi.mp4
+
 #!dublang
 |repeat 3
 
