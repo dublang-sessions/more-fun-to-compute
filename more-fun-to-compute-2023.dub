@@ -2,7 +2,7 @@
 
 loadfile /home/joenio/art/videos/videos-12-monkeys/slice02.avi.mp4
 
-loop inf
+set loop inf
 
 #!dublang
 |repeat 3
