@@ -48,7 +48,7 @@ vf set "transpose=dir=2:passthrough=portrait"
 
 vf set "vibrance:intensity=1:rbal=-10:gbal=10:bbal=10:alternate=1"
 
-vf set "vignette=0"
+vf set "vignette=10"
 
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
