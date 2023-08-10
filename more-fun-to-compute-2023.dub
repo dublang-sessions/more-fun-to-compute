@@ -1,4 +1,5 @@
 #!socat
+|repeat 2
 
 loadfile /home/joenio/art/videos/videos-12-monkeys/slice01.avi.mp4
 
