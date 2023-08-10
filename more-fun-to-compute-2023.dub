@@ -24,7 +24,7 @@ vf set "avgblur:sizeX=12:sizeY=12,cas:strength=1"
 
 vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
 
-vf set "boxblur=luma_radius=12:luma_power=1"
+vf set "boxblur=luma_radius=12:luma_power=0"
 
 
 
