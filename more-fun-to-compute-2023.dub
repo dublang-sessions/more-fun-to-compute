@@ -46,7 +46,7 @@ vf set "tmix=frames=12:weights=1 2 4 5 1 1 1"
 
 vf set "transpose=dir=2:passthrough=portrait"
 
-vf set "vibrance:intensity=1:rbal=-10:gbal=10:bbal=10:alternate=2"
+vf set "vibrance:intensity=1:rbal=-10:gbal=10:bbal=10:alternate=0"
 
 video filters reference
 https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
