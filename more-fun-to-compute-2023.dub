@@ -31,8 +31,11 @@ vf set "chromakey=black"
 vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
 vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=2:sizeY=4,cas:strength=0.97"
-
+ 
+-- Convert source to grayscale: 
 vf set "colorchannelmixer=.3:.4:.3:0:.3:.4:.3:0:.3:.4:.3"
+
+vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131"
 
 
 
