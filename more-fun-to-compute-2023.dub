@@ -59,7 +59,7 @@ video "videos-1984:01"
 
 #!supercollider
 
-~synth.set(\freq, 200);
+~synth.set(\freq, 700);
 ~synth.set(\mul, 1);
 
 ~synth.set(\freq, ${FREQ} * 1.5);
