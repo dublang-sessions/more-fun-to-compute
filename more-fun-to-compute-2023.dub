@@ -274,9 +274,6 @@ vf set "chromakey=black,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
 vf set "cas:strength=${RAND}"
 
-vf set "cas:strength=0.6"
-
-vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
 
 vf set "boxblur=luma_radius=12:luma_power=0"
 
@@ -371,6 +368,11 @@ Bye.
 
 #!socat
 |repeat 2
+
+
+vf set "cas:strength=0.6"
+
+vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
 
 show-text "\n\n\n\n\n               I'm Joenio Marques da Costa\n               I've played the dublang system.\n               I use Debian and free software tools.\n               See you next time.\n               Thank you all!\n               - https://joenio.me\n               - https://dublang.4two.art"
 
