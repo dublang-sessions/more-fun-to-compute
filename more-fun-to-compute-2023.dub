@@ -213,8 +213,7 @@ scene.set scene4
 
 #!tidalcycles
 
-
-d6
+d4
   $ degradeBy 0.1
   $ fast 2
   $ superimpose (rev)
