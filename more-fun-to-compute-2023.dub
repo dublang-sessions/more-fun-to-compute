@@ -178,7 +178,7 @@ d4
   $ slow 8
   $ sound "cp cp? cp/2 cp/3"
   # speed 0.2
-  # shape 0.4
+  # shape 0
   # vowel "[a|i|o]"
 
 d5
