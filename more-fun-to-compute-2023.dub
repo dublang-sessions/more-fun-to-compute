@@ -67,7 +67,7 @@ video "videos-1984:01"
 #!tidalcycles
 
 d1
-  $ sound "bd*2"
+  $ sound "cp bd*2"
   # n "<1 2>"
   # shape 0.5
 
