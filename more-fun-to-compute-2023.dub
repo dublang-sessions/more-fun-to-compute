@@ -335,10 +335,6 @@ hush
 
 -- end --
 
-#!obs
-
-scene.set scene0
-
 #!tidalcycles
 
 xfadeIn 1 16 $ silence
@@ -352,6 +348,10 @@ xfadeIn 4 16 $ silence
 xfadeIn 5 16 $ silence
 
 xfadeIn 6 16 $ silence
+
+#!obs
+
+scene.set scene0
 
 #!espeak
 
