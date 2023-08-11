@@ -30,10 +30,6 @@ video "videos-blade-runner:06"
 
 video "videos-dune:01"
 
-vf set "avgblur:sizeX=3:sizeY=2,cas:strength=1"
-
-vf set ""
-
 #!espeak
 
 in the beginning.
@@ -53,10 +49,20 @@ but then the BIG BROTHER app was released and the new era begun.
 (you will be assimilated)
 .
 today is 11 august 2023.
+.
+and.
+.
+(it's more fun to compute)
+
 
 #!socat
 
 video "videos-12-monkeys:01"
+
+vf set "avgblur:sizeX=3:sizeY=2,cas:strength=1"
+
+vf set ""
+
 
 #!supercollider
 
