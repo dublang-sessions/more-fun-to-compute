@@ -151,7 +151,7 @@ d2
   $ slow 8
   $ note "[e|c|d]"
   # sound "supersiren"
-  # gain 1 # shape 0
+  # gain 0.7 # shape 0
   # pan (slow 3 $ rand)
   |+ shape (rand * 0.1)
   # orbit 2
