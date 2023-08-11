@@ -67,7 +67,6 @@ video "videos-1984:01"
 #!tidalcycles
 
 d1
-  $ slow 2
   $ sound "808bd"
   # n "<1 2>"
   # shape 0.5
