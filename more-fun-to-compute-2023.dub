@@ -1,7 +1,12 @@
+#!supercollider
+
+s.scope;
+
 #!socat
 
 cycle mute
 set loop inf
+
 video "videos-blade-runner:03"
 
 #!socat
@@ -64,7 +69,13 @@ seek -2
 ab-loop
 
 #!dublang
+
+return dublang.config.path.sounds
+
+
 |repeat 2
+
+return vim.env.PORT
 
 vim.env.COUNT = 1
 
