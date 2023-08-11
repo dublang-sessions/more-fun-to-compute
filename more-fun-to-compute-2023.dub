@@ -4,7 +4,7 @@ s.scope;
 
 #!socat
 
-cycle stop
+cycle pause
 
 cycle mute
 set loop inf
