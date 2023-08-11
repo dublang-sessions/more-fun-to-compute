@@ -130,12 +130,10 @@ vim.env.SEED = math.random(99) + 1
 vim.env.SCENE = math.random(6)
 
 #!supercollider
+|repeat 10
 
 ~synth.set(\add, 1);
 ~synth.set(\mul, 0.1);
-
-#!supercollider
-|repeat 10
 
 ~synth.set(\freq, ${FREQ} * 1.5);
 
