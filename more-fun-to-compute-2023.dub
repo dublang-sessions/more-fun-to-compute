@@ -100,6 +100,9 @@ d8
     sound "~ DrumHits:2*2"
   ]
 
+
+once "DrumHits:2" # orbit 0 # room 1 # size 1
+
 #!supercollider
 
 ~synth.set(\freq, 100);
