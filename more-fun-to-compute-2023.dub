@@ -337,7 +337,7 @@ d7
   $ slow 2
   $ note "[c'maj, c2*8]"
   # sound "superfm"
-  # gain 1.1 # shape 0
+  # gain 1 # shape 0
 
 
 
