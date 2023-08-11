@@ -124,6 +124,7 @@ d1
   $ n (run 10)
   # sound "arpy"
   # gain 0.8
+  # squiz 2
 
 
 #!espeak
