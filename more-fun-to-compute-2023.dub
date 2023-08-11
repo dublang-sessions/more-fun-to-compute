@@ -70,7 +70,7 @@ video "videos-12-monkeys:01"
 #!tidalcycles
 
 d1
-  $ slow 4
+  $ slow 6
   $ sound "super808"
   # n "4"
   # lpf 400
