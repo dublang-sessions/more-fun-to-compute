@@ -93,7 +93,7 @@ d1
 
 #!obs
 
-scene.set scene0
+scene.set scene1
 
 #!socat
 
