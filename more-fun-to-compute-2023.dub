@@ -26,7 +26,6 @@ scene.set scene0
 
 ~synth = Synth(\saw);
 
-
 #!socat
 
 video "videos-dune:01"
