@@ -241,6 +241,8 @@ video "videos-blade-runner:${VIDEO}"
 
 vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
+vf set ""
+
 #!obs
 
 scene.set scene3
