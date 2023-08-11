@@ -216,14 +216,6 @@ d3
     sound "hh27(5,8)" # n (irand 4) # gain 1,
     slowcat [
       degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*16" # n 0 # speed 1.5 # gain 1.2,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh27*16" # n 0 # speed 1.5 # gain 1 # cut 1,
       degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1
     ]
   ]
