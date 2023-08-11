@@ -199,7 +199,6 @@ d1
   # squiz (${FREQ} / 50)
   # pan (slow 16 $ sine)
 
-
 #!obs
 
 scene.set scene3
@@ -219,7 +218,7 @@ scene.set scene4
 
 #!tidalcycles
 
-d4
+xfadeIn 4 32
   $ degradeBy 0.1
   $ fast 2
   $ superimpose (rev)
