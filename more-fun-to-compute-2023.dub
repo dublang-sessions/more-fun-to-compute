@@ -229,7 +229,7 @@ d7
   $ gap 8
   $ slow 2
   $ note "[c'maj, c2*8]"
-  # sound "superfm"
+  # sound "[superfm, moog?]"
   # gain 0.6 # shape 0
 
 #!tidalcycles
