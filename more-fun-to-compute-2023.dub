@@ -29,18 +29,27 @@ scene.set scene0
 
 #!socat
 
-video "videos-12-monkeys:01"
-
 video "videos-dune:01"
-
-video "videos-1984:01"
 
 #!espeak
 
 in the beginning.
+.
+.
 everyone was happy with the new smartphone release.
+.
+.
 full of new interesting features.
+.
+.
 but then the BIG BROTHER app was released and the new era begun.
+
+#!socat
+
+video "videos-12-monkeys:01"
+
+video "videos-1984:01"
+
 
 #!obs
 
