@@ -118,7 +118,7 @@ d2
 
 #!obs
 
-scene.set scene0
+scene.set scene1
 
 #!dublang
 |repeat 5
