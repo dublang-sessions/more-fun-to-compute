@@ -343,7 +343,7 @@ scene.set scene0
 
 xfadeIn 1 16 $ silence
 
-xfadeIn 1 16 $ silence
+xfadeIn 2 16 $ silence
 
 xfadeIn 1 16 $ silence
 
