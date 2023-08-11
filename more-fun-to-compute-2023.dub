@@ -77,6 +77,11 @@ d1
   # orbit 1 # size 1 # room 1
   # pan "[0|0.5|1]"
 
+#!supercollider
+
+~synth.set(\freq, 440);
+~synth.set(\mul, 0.05);
+
 #!socat
 
 video "videos-1984:01"
