@@ -81,7 +81,7 @@ d1
 
 ~synth.set(\freq, 200);
 ~synth.set(\mul, 0.5);
-~synth.set(\add, 1.5);
+~synth.set(\add, 2);
 
 #!socat
 
