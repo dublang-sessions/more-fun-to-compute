@@ -67,10 +67,9 @@ video "videos-1984:01"
 #!tidalcycles
 
 d1
-  $ sound "cp bd*2"
+  $ sound "cp bd*2 jazz:7"
   # n "<1 2>"
 
-  # shape 0.5
 
   # gain 1
   # attack 0.5 # hold 1 # rel 2
