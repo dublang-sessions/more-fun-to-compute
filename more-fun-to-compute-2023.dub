@@ -247,7 +247,7 @@ vf set "chromakey=white,colorbalance:rs=-0.2:rm=-0.3:rh=0.2"
 
 #!obs
 
-scene.set scene4
+scene.set scene5
 
 #!tidalcycles
 
