@@ -70,9 +70,11 @@ video "videos-12-monkeys:01"
 #!tidalcycles
 
 d1
+  $ slow 4
   $ sound "super808"
   # n "4"
   # lpf 800
+  # orbit 1 # size 1 # room 1
 
 #!socat
 
