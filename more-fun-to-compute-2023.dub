@@ -148,8 +148,6 @@ be assimilated.
 .
 human beings.
 
-|repeat 5
-
 #!tidalcycles
 
 d1
@@ -172,7 +170,7 @@ d3
   $ note (scale "chromatic" (run 4))
   # sound "bass2:3"
   # lpf 1500
-  # shape 0.3 # gain 1.2
+  # shape 0 # gain 1
 
 d4
   $ sometimes (off 0.125 (|+ up 4))
