@@ -26,11 +26,10 @@ scene.set scene0
 
 ~synth = Synth(\saw);
 
-~synth.free;
 
 #!socat
 
-video "videos-12-monkeys:03"
+video "videos-12-monkeys:01"
 
 #!obs
 
@@ -120,6 +119,8 @@ vim.env.SCENE = math.random(6)
 ~synth.set(\freq, ${FREQ} * 1.5);
 
 ~synth.set(\mul, 1 / ${SEED});
+
+~synth.free;
 
 ~synth.free;
 
