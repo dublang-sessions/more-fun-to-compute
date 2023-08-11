@@ -111,6 +111,21 @@ d2
   # tremr (irand 2) # tremdp (irand 3)
   # orbit 2
 
+#!dublang
+|repeat 5
+
+vim.env.VIDEO = string.format("%02d", math.random(10))
+vim.env.RAND = string.format("%f", math.random())
+vim.env.FREQ = math.random(200) + 100
+vim.env.SEED = math.random(99) + 1
+vim.env.SCENE = math.random(6)
+
+#!supercollider
+
+~synth.set(\freq, 100);
+~synth.set(\mul, 0.1);
+~synth.set(\add, 2);
+
 #!obs
 
 scene.set scene1
