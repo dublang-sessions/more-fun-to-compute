@@ -161,8 +161,6 @@ ab-loop
 
 #!tidalcycles
 
-d5 silence
-
 xfadeIn 5 16
   $ rarely (degrade)
   $ often (|+ gain 0.3)
@@ -236,7 +234,7 @@ hush
 
 #!obs
 
-scene.set scene2
+scene.set scene3
 
 #!socat
 |repeat 10
