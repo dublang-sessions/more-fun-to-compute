@@ -6,6 +6,8 @@ s.scope;
 
 scene.set scene0
 
+record.start
+
 #!socat
 
 cycle mute
@@ -90,23 +92,12 @@ video "videos-1984:01"
 
 #!tidalcycles
 
-hush
 
-d1
-  $ sound "cp bd*2 jazz:7*2"
-
-
-  # gain 1
-  # attack 0.5 # hold 1 # rel 2
-  |+ shape (slow 16 $ sine * 0.2)
-  |+ gain (slow 8 $ sine * 0.2)
-  # pan (slow 16 $ sine)
 
 #!obs
 
 scene.set scene1
 
-record.start
 
 #!socat
 
@@ -219,7 +210,7 @@ d2
   $ off 2 ((|+ up (${FREQ} / 5)) . (|+ gain 0.2))
   $ note "[e1|c1|d1]"
   # sound "supersiren"
-  # gain 1.1 # shape 0.2
+  # gain 1 # shape 0
   # pan (slow 3 $ rand)
   |+ shape (rand * 0.3)
   # tremr (irand 2) # tremdp (irand 3)
