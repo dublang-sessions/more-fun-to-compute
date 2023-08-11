@@ -54,10 +54,6 @@ and.
 .
 (it's more fun to compute)
 
-#!obs
-
-scene.set scene1
-
 #!socat
 
 video "videos-12-monkeys:01"
