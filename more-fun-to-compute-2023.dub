@@ -208,6 +208,8 @@ scene.set scene3
 
 video "videos-dune:${VIDEO}"
 
+video "videos-1984:${VIDEO}"
+
 vf set ""
 
 vf set "chromakey=black,colorbalance:rs=-0.7:rm=-0.9:rh=1"
