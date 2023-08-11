@@ -231,6 +231,11 @@ d5
   # lpf 1500
   # shape 0 # gain 1
 
+#!obs
+|repeat 10
+
+scene.set scene${SCENE}
+
 d6
   $ sometimes (off 0.125 (|+ up 4))
   $ stut 10 0.75 0.25
@@ -239,12 +244,6 @@ d6
   # speed 0.2
   # shape 0
   # vowel "[a|i|o]"
-
-
-#!obs
-|repeat 20
-
-scene.set scene${SCENE}
 
 #!supercollider
 |repeat 10
