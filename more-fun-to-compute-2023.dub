@@ -245,7 +245,7 @@ d1
   |+ shape (slow 16 $ sine * 0.2)
   |+ gain (slow 8 $ sine * 0.2)
   # pan (slow 16 $ sine)
-  # speed 0.7
+  # speed 0.4
   # vowel "o"
 
 #!obs
