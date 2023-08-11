@@ -239,7 +239,8 @@ d1
 
 d1
   $ slow 2
-  $ sound "808" # n "<0 2 0 1>"
+  $ sound "808"
+  # n "<0 2 0 1>"
   # gain 1
   # shape 0.1
   |+ shape (slow 16 $ sine * 0.2)
