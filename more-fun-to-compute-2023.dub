@@ -8,8 +8,22 @@ cycle mute
 set loop inf
 video "videos-blade-runner:06"
 
+
+#!supercollider
+
+(
+  SynthDef.new(\saw, {
+    arg cutoff = 1000, mul = 0.2, add = 1, freq = 400;
+    var sig;
+    sig = Saw.ar([30, 60]);
+    sig = RLPF.ar(sig, freq, mul, add);
+    Out.ar(0, sig * 0.5);
+  }).add;
+)
+
+~synth = Synth(\saw);
+
 #!socat
-|repeat 4
 
 video "videos-12-monkeys:03"
 
@@ -86,19 +100,6 @@ vim.env.SEED = math.random(99) + 1
 vim.env.SCENE = math.random(6)
 
 #!supercollider
-|repeat 5
-
-(
-  SynthDef.new(\saw, {
-    arg cutoff = 1000, mul = 0.2, add = 1, freq = 400;
-    var sig;
-    sig = Saw.ar([30, 60]);
-    sig = RLPF.ar(sig, freq, mul, add);
-    Out.ar(0, sig * 0.5);
-  }).add;
-)
-
-~synth = Synth(\saw);
 
 ~synth.set(\add, 0.0);
 
@@ -110,6 +111,8 @@ vim.env.SCENE = math.random(6)
 ~synth.set(\mul, 1 / ${SEED});
 
 ~synth.free;
+
+|repeat 5
 
 #!tidalcycles
 
