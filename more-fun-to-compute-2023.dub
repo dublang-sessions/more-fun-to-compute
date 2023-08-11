@@ -4,12 +4,12 @@ s.scope;
 
 #!socat
 
-stop
-
 cycle mute
 set loop inf
 video "videos-blade-runner:06"
 vf set "avgblur:sizeX=3:sizeY=2,cas:strength=1"
+
+cycle play
 
 #!obs
 
