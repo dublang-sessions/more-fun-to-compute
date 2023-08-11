@@ -8,6 +8,10 @@ cycle mute
 set loop inf
 video "videos-blade-runner:06"
 
+#!obs
+
+scene.set scene0
+
 #!supercollider
 
 (
