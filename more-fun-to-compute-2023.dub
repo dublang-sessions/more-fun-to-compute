@@ -57,6 +57,20 @@ video "videos-12-monkeys:01"
 
 video "videos-1984:01"
 
+#!supercollider
+
+~synth.set(\freq, 220);
+
+~synth.set(\mul, 0.2);
+
+~synth.set(\freq, ${FREQ} * 1.5);
+
+~synth.set(\mul, 1 / ${SEED});
+
+~synth.free;
+
+~synth.free;
+
 
 #!obs
 
