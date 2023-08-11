@@ -165,7 +165,7 @@ ab-loop
 
 #!tidalcycles
 
-xfadeIn 3 16
+xfadeIn 3 32
   $ rarely (degrade)
   $ often (|+ gain 0.3)
   $ superimpose (chop 8)
