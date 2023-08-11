@@ -6,7 +6,6 @@ s.scope;
 
 cycle mute
 set loop inf
-
 video "videos-blade-runner:06"
 
 #!socat
@@ -95,7 +94,7 @@ vim.env.SCENE = math.random(6)
     var sig;
     sig = Saw.ar([30, 60]);
     sig = RLPF.ar(sig, freq, mul, add);
-    Out.ar(0, sig);
+    Out.ar(0, sig * 0.5);
   }).add;
 )
 
