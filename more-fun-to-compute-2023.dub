@@ -277,6 +277,8 @@ vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
 vf set "chromakey=black,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
+vf set ""
+
 #!socat
 
 vf set "cas:strength=${RAND}"
