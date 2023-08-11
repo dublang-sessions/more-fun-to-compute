@@ -325,12 +325,13 @@ seek -2
 ab-loop
 
 
-xfadeIn 7 16
+d7
   $ slow 8
   $ note "[c'maj, c2*8]"
   # sound "superfm"
   # attack 1 # hold 4 # release 1
   # gain 1.1 # shape 0.2
+  |+ up 8
 
 d7 silence
 
