@@ -185,7 +185,9 @@ d4
   # shape 0
   # vowel "[a|i|o]"
 
-d5
+silence 5
+
+xfadeIn 5 16
   $ rarely (degrade)
   $ often (|+ gain 0.3)
   $ superimpose (chop 8)
