@@ -73,7 +73,7 @@ d1
   # n "<0.2 0.2 0.2 0.4 0.4>"
   # gain 1
   # shape 0.1
-  # attack 0.1 # hold 2 # rel 2
+  # attack 0.5 # hold 1 # rel 2
   |+ shape (slow 16 $ sine * 0.2)
   |+ gain (slow 8 $ sine * 0.2)
   # pan (slow 16 $ sine)
