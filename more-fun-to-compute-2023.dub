@@ -100,6 +100,10 @@ d8
     sound "~ DrumHits:2*2"
   ]
 
+d9
+  $ slow 2
+  $ sound "Bass"
+
 once $ sound "~ DrumHits:4" # orbit 1 # room 1 # size 1
 
 #!supercollider
