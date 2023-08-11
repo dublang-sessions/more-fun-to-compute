@@ -360,6 +360,8 @@ xfadeIn 6 32 $ silence
 
 #!obs
 
+scene.set scene${SCENE}
+
 scene.set scene0
 
 #!espeak
