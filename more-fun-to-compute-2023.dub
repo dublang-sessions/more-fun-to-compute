@@ -309,9 +309,9 @@ d6
   $ stut 10 0.75 0.25
   $ slow 8
   $ sound "cp cp? cp/2 cp/3"
-  # speed 0.2
   # shape 0
   # vowel "[a|i|o]"
+  # squiz 3
 
 #!supercollider
 |repeat 10
