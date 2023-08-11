@@ -8,6 +8,8 @@ cycle mute
 set loop inf
 video "videos-blade-runner:06"
 
+vf set "avgblur:sizeX=3:sizeY=2,cas:strength=1"
+
 #!obs
 
 scene.set scene0
@@ -93,7 +95,6 @@ vf set "cas:strength=0.6"
 set alpha blend
 
 
-vf set "avgblur:sizeX=3:sizeY=2,cas:strength=1"
 
 vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
 
