@@ -95,7 +95,10 @@ setcps (126/60/2)
 
 d8
   $ slow 4
-  $ sound "Beats"
+  $ stack [
+    sound "Beats",
+    sound "DrumHits:0"
+  ]
 
 #!supercollider
 
