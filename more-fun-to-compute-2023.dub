@@ -332,7 +332,7 @@ hush
 #!tidalcycles
 
 d7
-  $ stut 4 0.75 0.1
+  $ stut 4 0.75 0.25
   $ degrade
   $ gap 8
   $ slow 2
