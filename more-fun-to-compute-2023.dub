@@ -151,7 +151,7 @@ human beings.
 
 #!obs
 
-scene.set scene1
+scene.set scene2
 
 #!socat
 
