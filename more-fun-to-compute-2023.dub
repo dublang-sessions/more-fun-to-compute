@@ -295,7 +295,6 @@ vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131"
 vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131,chromakey=white,colorize:hue=${COUNT}"
 
 
-vf set "scroll:h=0.001:v=0.001"
 
 vf set "tmix=frames=12:weights=1 2 4 5 1 1 1"
 
@@ -373,6 +372,8 @@ Bye.
 vf set "cas:strength=0.6"
 
 vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
+
+vf set "scroll:h=0.001:v=0.001"
 
 show-text "\n\n\n\n\n               I'm Joenio Marques da Costa\n               I've played the dublang system.\n               I use Debian and free software tools.\n               See you next time.\n               Thank you all!\n               - https://joenio.me\n               - https://dublang.4two.art"
 
