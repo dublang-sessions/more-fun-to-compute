@@ -220,18 +220,6 @@ d4
   # shape 0
   # vowel "[a|i|o]"
 
-
-d7
-  $ slow 8
-  $ note "[c'maj, c2*8]"
-  # sound "superfm"
-  # attack 1 # hold 4 # release 1
-  # gain 1.2 # shape 0.4
-
-xfadeIn 7 16 $ silence
-
-hush
-
 #!obs
 
 scene.set scene3
@@ -248,6 +236,20 @@ vf set "chromakey=black,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 #!obs
 
 scene.set scene4
+
+#!tidalcycles
+
+xfadeIn 7 16
+  $ slow 8
+  $ note "[c'maj, c2*8]"
+  # sound "superfm"
+  # attack 1 # hold 4 # release 1
+  # gain 1.1 # shape 0.2
+
+xfadeIn 7 16 $ silence
+
+hush
+
 
 #!obs
 |repeat 20
