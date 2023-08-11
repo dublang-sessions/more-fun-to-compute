@@ -125,6 +125,7 @@ d1
   # sound "arpy"
   # gain 0.8
   # squiz 2
+  |+ squiz (rand * 0.5)
 
 
 #!espeak
