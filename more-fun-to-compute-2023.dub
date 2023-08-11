@@ -231,7 +231,7 @@ d5
   # lpf 1500
   # shape 0 # gain 1
 
-d4
+d6
   $ sometimes (off 0.125 (|+ up 4))
   $ stut 10 0.75 0.25
   $ slow 8
