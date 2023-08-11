@@ -176,8 +176,6 @@ vim.env.SCENE = math.random(6)
 
 ~synth.free;
 
-~synth.free;
-
 |repeat 5
 
 #!tidalcycles
