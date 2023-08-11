@@ -62,15 +62,6 @@ video "videos-1984:01"
 ~synth.set(\freq, 910);
 ~synth.set(\mul, 0.01);
 
-~synth.set(\freq, ${FREQ} * 1.5);
-
-~synth.set(\mul, 1 / ${SEED});
-
-~synth.free;
-
-~synth.free;
-
-
 #!obs
 
 scene.set scene1
