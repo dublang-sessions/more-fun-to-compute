@@ -224,11 +224,16 @@ xfadeIn 7 16 $ silence
 
 hush
 
+#!obs
+
+scene.set scene2
+
 #!socat
 
 video "videos-1984:04"
 
 video "videos-dune:${VIDEO}"
+
 vf set "cas:strength=${RAND}"
 
 vf set "cas:strength=0.6"
