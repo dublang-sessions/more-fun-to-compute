@@ -340,7 +340,7 @@ d7
   # sound "superfm"
   # gain 1 # shape 0
 
-
+d7 $ silence
 
 -- end --
 
