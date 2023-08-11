@@ -69,9 +69,10 @@ video "videos-1984:01"
 d1
   $ slow 2
   $ stut 4 0.75 0.5
-  $ sound "super808" # n "<0.2 0.2 02 0.4 0.4>"
-  # gain 1.2
-  # shape 0.3
+  $ sound "super808"
+  # n "<0.2 0.2 0.2 0.4 0.4>"
+  # gain 1
+  # shape 0.1
   # attack 1 # hold 2 # rel 2
   |+ shape (slow 16 $ sine * 0.2)
   |+ gain (slow 8 $ sine * 0.2)
