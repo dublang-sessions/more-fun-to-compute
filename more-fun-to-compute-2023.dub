@@ -222,6 +222,16 @@ d3
   # orbit 5 # size 0.5 # room 0.5
   |+ room (rand * 0.4) |+ size (rand * 0.4)
 
+
+d7
+  $ stut 4 0.75 0.125
+  $ degrade
+  $ gap 8
+  $ slow 2
+  $ note "[c'maj, c2*8]"
+  # sound "superfm"
+  # gain 0.6 # shape 0
+
 #!tidalcycles
 
 d1
@@ -364,15 +374,6 @@ d7 silence
 hush
 
 #!tidalcycles
-
-d7
-  $ stut 4 0.75 0.125
-  $ degrade
-  $ gap 8
-  $ slow 2
-  $ note "[c'maj, c2*8]"
-  # sound "superfm"
-  # gain 1 # shape 0
 
 d7 $ silence
 
