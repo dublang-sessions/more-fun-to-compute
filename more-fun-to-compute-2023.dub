@@ -108,6 +108,7 @@ vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=2:sizeY=
 vf set "colorchannelmixer=.3:.4:.3:0:.3:.4:.3:0:.3:.4:.3"
 
 -- Simulate sepia tones: 
+
 vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131"
 
 vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131,chromakey=white,colorize:hue=${COUNT}"
