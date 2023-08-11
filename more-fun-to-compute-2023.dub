@@ -178,15 +178,6 @@ xfadeIn 5 16
   # orbit 5 # size 0.5 # room 0.5
   |+ room (rand * 0.4) |+ size (rand * 0.4)
 
-d6
-  $ degradeBy 0.1
-  $ fast 2
-  $ superimpose (rev)
-  $ sound "jazz:3(5,8)"
-  # speed 1.2
-  # squiz 2.3
-  # shape 0
-
 #!tidalcycles
 
 d1
@@ -238,6 +229,16 @@ vf set "chromakey=black,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 scene.set scene4
 
 #!tidalcycles
+
+
+d6
+  $ degradeBy 0.1
+  $ fast 2
+  $ superimpose (rev)
+  $ sound "jazz:3(5,8)"
+  # speed 1.2
+  # squiz 2.3
+  # shape 0
 
 xfadeIn 7 16
   $ slow 8
