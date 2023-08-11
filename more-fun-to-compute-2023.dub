@@ -185,7 +185,7 @@ d4
   # shape 0
   # vowel "[a|i|o]"
 
-silence 5
+d5 silence
 
 xfadeIn 5 16
   $ rarely (degrade)
