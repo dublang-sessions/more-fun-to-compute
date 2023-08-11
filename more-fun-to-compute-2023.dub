@@ -130,12 +130,6 @@ vim.env.SCENE = math.random(6)
 
 ~synth.set(\freq, ${FREQ} * 1.5);
 
-#!supercollider
-
-~synth.set(\freq, 100);
-~synth.set(\mul, 0.1);
-~synth.set(\add, 2);
-
 #!obs
 
 scene.set scene1
