@@ -35,7 +35,9 @@ vf set ""
   }).add;
 )
 
+s.freeAll;
 ~synth = Synth(\saw);
+
 
 #!socat
 
