@@ -79,7 +79,7 @@ d1
 
 #!supercollider
 
-~synth.set(\freq, 120);
+~synth.set(\freq, 80);
 ~synth.set(\mul, 0.01);
 ~synth.set(\add, 0.4);
 
