@@ -244,10 +244,6 @@ vf set "cas:strength=${RAND}"
 
 vf set "cas:strength=0.6"
 
-set alpha blend
-
-
-
 vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
 
 vf set "boxblur=luma_radius=12:luma_power=0"
