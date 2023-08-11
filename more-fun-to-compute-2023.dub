@@ -94,7 +94,7 @@ d1
 setcps (126/60/2)
 
 d8
-  $ slow 2
+  $ slow 4
   $ sound "Beats"
 
 #!supercollider
