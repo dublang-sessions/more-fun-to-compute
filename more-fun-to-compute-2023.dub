@@ -251,14 +251,28 @@ scene.set scene3
 
 scene.set scene${SCENE}
 
-
 #!supercollider
 |repeat 10
 
 ~synth.set(\add, ${RAND});
 ~synth.set(\freq, ${FREQ} * 1.5);
 
--- from this poins above are all drafts and snippets
+----- from this poins above are all drafts and snippets ----------
+
+#!socat
+|repeat 10
+
+video "videos-dune:${VIDEO}"
+
+video "videos-1984:${VIDEO}"
+
+video "videos-12-monkeys:${VIDEO}"
+
+video "videos-blade-runner:${VIDEO}"
+
+vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
+
+vf set "chromakey=black,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
 #!socat
 
