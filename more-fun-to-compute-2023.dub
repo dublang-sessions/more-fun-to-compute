@@ -175,7 +175,7 @@ vim.env.SCENE = math.random(6)
 ~synth.set(\freq, ${FREQ} * 1.5);
 
 #!espeak
-|repeat 33
+|repeat 10
 
 resistance.
 is.
