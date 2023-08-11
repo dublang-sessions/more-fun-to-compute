@@ -104,7 +104,7 @@ d8
     sound "DrumHits:4*32" # gain 0.8 # cut 1 # speed 0.9 # pan (sine)
   ]
 
-d9
+xfadeIn 9 8
   $ slow 4
   $ slowcat [
     sound "Bass:0",
@@ -229,7 +229,7 @@ d7
   $ gap 8
   $ slow 2
   $ note "[c'maj, c2*8]"
-  # sound "[superfm, moog?]"
+ # sound "[superfm, moog?]"
   # gain 0.6 # shape 0
 
 #!tidalcycles
