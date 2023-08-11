@@ -71,7 +71,7 @@ video "videos-12-monkeys:01"
 
 d1
   $ sound "super808"
-  # n "c2"
+  # n "1"
 
 #!socat
 
