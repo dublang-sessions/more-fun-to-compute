@@ -23,6 +23,8 @@ video "videos-blade-runner:06"
 
 ~synth = Synth(\saw);
 
+x.freeAll;
+
 ~synth.free;
 
 #!socat
