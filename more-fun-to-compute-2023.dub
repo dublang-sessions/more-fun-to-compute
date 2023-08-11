@@ -29,7 +29,7 @@ video "videos-12-monkeys:03"
 
 #!obs
 
-scene.set scene1
+scene.set scene2
 
 video "videos-1984:04"
 
