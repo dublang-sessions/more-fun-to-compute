@@ -233,7 +233,11 @@ scene.set scene2
 
 video "videos-dune:${VIDEO}"
 
-video "videos-1984:04"
+video "videos-1984:${VIDEO}"
+
+video "videos-12-monkeys:${VIDEO}"
+
+video "videos-blade-runner:${VIDEO}"
 
 
 vf set "cas:strength=${RAND}"
