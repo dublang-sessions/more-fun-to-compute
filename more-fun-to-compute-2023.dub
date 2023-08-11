@@ -75,6 +75,7 @@ d1
   # n "4"
   # lpf 400
   # orbit 1 # size 1 # room 1
+  # pan "[0|0.5|1]"
 
 #!socat
 
