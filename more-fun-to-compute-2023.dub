@@ -31,7 +31,7 @@ vf set ""
     var sig;
     sig = Saw.ar([30, 60]);
     sig = RLPF.ar(sig, freq, mul, add);
-    Out.ar(0, sig * 0.2);
+    Out.ar(0, sig * 0.1);
   }).add;
 )
 
