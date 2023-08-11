@@ -106,6 +106,8 @@ vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=2:sizeY=
  
 -- Convert source to grayscale: 
 
+seek 10
+
 vf set "colorchannelmixer=.3:.4:.3:0:.3:.4:.3:0:.3:.4:.3"
 
 -- Simulate sepia tones: 
