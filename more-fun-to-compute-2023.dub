@@ -69,7 +69,9 @@ video "videos-12-monkeys:01"
 
 #!tidalcycles
 
-d1 $ sound "super808"
+d1
+  $ sound "super808"
+  # note "c"
 
 #!socat
 
