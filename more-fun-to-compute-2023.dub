@@ -126,7 +126,7 @@ fire!
 
 #!socat
 
-video "videos-blade-runner:01"
+video "videos-blade-runner:02"
 
 vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=0.1"
 
