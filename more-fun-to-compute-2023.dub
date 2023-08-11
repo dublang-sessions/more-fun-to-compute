@@ -135,6 +135,91 @@ vim.env.SCENE = math.random(6)
 
 scene.set scene1
 
+#!espeak
+|repeat 33
+
+resistance.
+is.
+futile.
+
+.
+you will.
+be assimilated.
+.
+human beings.
+
+|repeat 5
+
+#!tidalcycles
+
+d1
+  $ slow 2
+  $ stut 4 0.75 0.5
+  $ sound "super808" # n "<0.2 0.2 02 0.4 0.4>"
+  # gain 1.2
+  # shape 0.3
+  # attack 1 # hold 2 # rel 2
+  |+ shape (slow 16 $ sine * 0.2)
+  |+ gain (slow 8 $ sine * 0.2)
+  # squiz (${FREQ} / 50)
+  # pan (slow 16 $ sine)
+
+  $ off 2 ((|+ up (${FREQ} / 5)) . (|+ gain 0.2))
+
+d3
+  $ often (|- speed "0.2")
+  $ degradeBy 0.25
+  $ note (scale "chromatic" (run 4))
+  # sound "bass2:3"
+  # lpf 1500
+  # shape 0.3 # gain 1.2
+
+d4
+  $ sometimes (off 0.125 (|+ up 4))
+  $ stut 10 0.75 0.25
+  $ slow 8
+  $ sound "cp cp? cp/2 cp/3"
+  # speed 0.2
+  # shape 0.4
+  # vowel "[a|i|o]"
+
+d5
+  $ rarely (degrade)
+  $ often (|+ gain 0.3)
+  $ superimpose (chop 8)
+  $ stack[
+    sound "hh27(5,8)" # n (irand 4) # gain 1,
+    slowcat [
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*16" # n 0 # speed 1.5 # gain 1.2
+    ]
+  ]
+  # orbit 5 # size 0.5 # room 0.5
+  |+ room (rand * 0.4) |+ size (rand * 0.4)
+
+d6
+  $ degradeBy 0.1
+  $ fast 2
+  $ superimpose (rev)
+  $ sound "jazz:3(5,8)"
+  # speed 1.2
+  # squiz 2.3
+  # shape 0.4
+
+d7
+  $ slow 8
+  $ note "[c'maj, c2*8]"
+  # sound "superfm"
+  # attack 1 # hold 4 # release 1
+  # gain 1.2 # shape 0.4
+
+xfadeIn 7 16 $ silence
+
+hush
+
 #!socat
 
 video "videos-1984:04"
@@ -225,90 +310,7 @@ vim.env.SCENE = math.random(6)
 
 ~synth.free;
 
-|repeat 5
 
-#!tidalcycles
-
-d1
-  $ slow 2
-  $ stut 4 0.75 0.5
-  $ sound "super808" # n "<0.2 0.2 02 0.4 0.4>"
-  # gain 1.2
-  # shape 0.3
-  # attack 1 # hold 2 # rel 2
-  |+ shape (slow 16 $ sine * 0.2)
-  |+ gain (slow 8 $ sine * 0.2)
-  # squiz (${FREQ} / 50)
-  # pan (slow 16 $ sine)
-
-  $ off 2 ((|+ up (${FREQ} / 5)) . (|+ gain 0.2))
-
-d3
-  $ often (|- speed "0.2")
-  $ degradeBy 0.25
-  $ note (scale "chromatic" (run 4))
-  # sound "bass2:3"
-  # lpf 1500
-  # shape 0.3 # gain 1.2
-
-d4
-  $ sometimes (off 0.125 (|+ up 4))
-  $ stut 10 0.75 0.25
-  $ slow 8
-  $ sound "cp cp? cp/2 cp/3"
-  # speed 0.2
-  # shape 0.4
-  # vowel "[a|i|o]"
-
-d5
-  $ rarely (degrade)
-  $ often (|+ gain 0.3)
-  $ superimpose (chop 8)
-  $ stack[
-    sound "hh27(5,8)" # n (irand 4) # gain 1,
-    slowcat [
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*16" # n 0 # speed 1.5 # gain 1.2
-    ]
-  ]
-  # orbit 5 # size 0.5 # room 0.5
-  |+ room (rand * 0.4) |+ size (rand * 0.4)
-
-d6
-  $ degradeBy 0.1
-  $ fast 2
-  $ superimpose (rev)
-  $ sound "jazz:3(5,8)"
-  # speed 1.2
-  # squiz 2.3
-  # shape 0.4
-
-d7
-  $ slow 8
-  $ note "[c'maj, c2*8]"
-  # sound "superfm"
-  # attack 1 # hold 4 # release 1
-  # gain 1.2 # shape 0.4
-
-xfadeIn 7 16 $ silence
-
-hush
-
-#!espeak
-
-|repeat 75
-
-resistance.
-is.
-futile.
-.
-you will.
-be assimilated.
-.
-human beings.
 
 #!obs
 |repeat 2
