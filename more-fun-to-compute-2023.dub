@@ -239,6 +239,15 @@ video "videos-12-monkeys:${VIDEO}"
 
 video "videos-blade-runner:${VIDEO}"
 
+vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
+
+#!obs
+
+scene.set scene3
+
+-- from this poins above are all drafts and snippets
+
+#!socat
 
 vf set "cas:strength=${RAND}"
 
@@ -250,7 +259,6 @@ vf set "boxblur=luma_radius=12:luma_power=0"
 
 vf set "chromakey=blue"
 
-vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
 vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=2:sizeY=4,cas:strength=0.97"
  
@@ -292,34 +300,6 @@ ab-loop
 
 #!dublang
 
-return dublang.config.path.sounds
-
-|repeat 2
-
-vim.env.COUNT = 1
-
-vim.env.COUNT = vim.env.COUNT + 10
-return vim.env.COUNT
-
-vim.env.VIDEO = string.format("%02d", math.random(10))
-vim.env.RAND = string.format("%f", math.random())
-
-vim.env.FREQ = math.random(200) + 100
-vim.env.SEED = math.random(99) + 1
-vim.env.SCENE = math.random(6)
-
-#!supercollider
-
-~synth.set(\add, 0.0);
-
-~synth.set(\freq, ${FREQ} * 1.5);
-~synth.set(\mul, 0.2);
-
-~synth.set(\freq, ${FREQ} * 1.5);
-
-~synth.set(\mul, 1 / ${SEED});
-
-~synth.free;
 
 
 
