@@ -20,7 +20,7 @@ scene.set scene0
     var sig;
     sig = Saw.ar([30, 60]);
     sig = RLPF.ar(sig, freq, mul, add);
-    Out.ar(0, sig * 0.5);
+    Out.ar(0, sig * 0.2);
   }).add;
 )
 
