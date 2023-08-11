@@ -332,6 +332,7 @@ hush
 #!tidalcycles
 
 d7
+  $ degrade
   $ gap 8
   $ slow 2
   $ note "[c'maj, c2*8]"
