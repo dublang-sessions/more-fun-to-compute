@@ -13,6 +13,8 @@ vf set "avgblur:sizeX=3:sizeY=2,cas:strength=1"
 
 scene.set scene0
 
+scene.set scene1
+
 #!supercollider
 
 (
@@ -31,7 +33,7 @@ scene.set scene0
 
 video "videos-dune:01"
 
-vf set "avgblur:sizeX=3:sizeY=2"
+vf set "avgblur:sizeX=3:sizeY=2,cas:strength=1"
 
 #!espeak
 
