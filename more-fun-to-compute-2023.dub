@@ -76,7 +76,7 @@ video "videos-12-monkeys:01"
 
 #!obs
 
-scene.set scene1
+scene.set scene0
 
 #!tidalcycles
 
