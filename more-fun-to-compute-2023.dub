@@ -13,6 +13,7 @@ record.start
 cycle mute
 set loop inf
 video "videos-blade-runner:06"
+vf set ""
 
 #!supercollider
 
@@ -313,21 +314,11 @@ https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
 
 seek 1845 absolute
 
-show-text "teste teste hello world la la la LALALALA aaaaaaaaaaaaaaaaaaaaaaa a\n aaaaaaaaaaaa aa aa aa aa"
-
 seek -2
 
 ab-loop
 
 
-#!obs
-|repeat 2
-
-scene.set scene6
-
-record.start
-
-record.stop
 
 -- end --
 
@@ -335,15 +326,9 @@ record.stop
 
 scene.set scene0
 
-record.stop
-
 #!tidalcycles
 
 hush
-
-#!supercollider
-
-~synth.free;
 
 #!espeak
 
@@ -364,3 +349,11 @@ You can visit my website at www.joenio.me
 |repeat 2
 
 show-text "\n\n\n\n\n               I'm Joenio Marques da Costa\n               I've played the dublang system.\n               I use Debian and free software tools.\n               See you next time.\n               Thank you all!\n               - https://joenio.me\n               - https://dublang.4two.art"
+
+#!supercollider
+
+~synth.free;
+
+#!obs
+
+record.stop
