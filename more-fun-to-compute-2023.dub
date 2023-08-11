@@ -120,6 +120,7 @@ once
 
 
 d1
+  $ sometimes (superimpose (rev))
   $ gap 4
   $ n (run 10)
   # sound "arpy"
