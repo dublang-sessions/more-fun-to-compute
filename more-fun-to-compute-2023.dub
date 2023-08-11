@@ -243,7 +243,7 @@ video "videos-1984:${VIDEO}"
 
 vf set ""
 
-vf set "chromakey=white,colorbalance:rs=-0.2:rm=-0.9:rh=1"
+vf set "chromakey=white,colorbalance:rs=-0.2:rm=-0.3:rh=0.2"
 
 #!obs
 
