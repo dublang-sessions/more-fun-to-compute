@@ -110,7 +110,7 @@ d2
   $ slow 4
   $ note "[e1|c1|d1]"
   # sound "supersiren"
-  # gain 1.2 # shape 0.2
+  # gain 1 # shape 0
   # pan (slow 3 $ rand)
   |+ shape (rand * 0.3)
   # tremr (irand 2) # tremdp (irand 3)
