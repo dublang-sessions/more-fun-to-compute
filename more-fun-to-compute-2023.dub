@@ -169,7 +169,7 @@ vim.env.SCENE = math.random(6)
 #!supercollider
 |repeat 10
 
-~synth.set(\add, 1);
+~synth.set(\add, 0.8);
 ~synth.set(\mul, 0.1);
 
 ~synth.set(\freq, ${FREQ} * 1.5);
@@ -183,8 +183,6 @@ futile.
 .
 you will.
 be assimilated.
-.
-human beings.
 
 #!obs
 
