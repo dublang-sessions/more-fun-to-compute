@@ -114,7 +114,7 @@ once $ sound "~ [DrumHits:8 DrumHits:9]" # orbit 1 # room 0.8 # size 0.9
 
 #!espeak
 
-jah, rasta, fire!
+fire!
 
 #!supercollider
 
