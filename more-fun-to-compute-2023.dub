@@ -342,3 +342,7 @@ hush
 #!supercollider
 
 ~synth.free;
+
+#!espeak
+
+thank you
