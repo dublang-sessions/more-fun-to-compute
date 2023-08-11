@@ -128,7 +128,7 @@ fire!
 
 video "videos-blade-runner:01"
 
-vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
+vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=0.1"
 
 #!tidalcycles
 
