@@ -157,6 +157,8 @@ scene.set scene2
 
 video "videos-blade-runner:04"
 
+ab-loop
+
 #!tidalcycles
 
 d1
