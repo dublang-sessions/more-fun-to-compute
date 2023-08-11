@@ -152,6 +152,7 @@ d2
   # pan (slow 3 $ rand)
   |+ shape (rand * 0.1)
   # orbit 2
+  |- gain (rand * 0.2)
 
 #!obs
 
