@@ -102,7 +102,7 @@ d8
 
 d9
   $ slow 4
-  $ sound "Bass"
+  $ sound "Bass:1"
 
 once $ sound "~ DrumHits:4" # orbit 1 # room 1 # size 1
 
