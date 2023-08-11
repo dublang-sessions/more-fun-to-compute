@@ -100,7 +100,7 @@ d8
     sound "~ DrumHits:2*2"
   ]
 
-once $ sound "~ DrumHits:0" # orbit 1 # room 1 # size 1
+once $ sound "~ DrumHits:3" # orbit 1 # room 1 # size 1
 
 #!supercollider
 
