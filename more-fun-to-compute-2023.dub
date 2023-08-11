@@ -8,7 +8,6 @@ cycle mute
 set loop inf
 video "videos-blade-runner:06"
 
-
 #!supercollider
 
 (
@@ -31,7 +30,7 @@ video "videos-12-monkeys:03"
 
 #!obs
 
-scene.set scene1
+scene.set scene2
 
 record.start
 
