@@ -109,7 +109,7 @@ d9
     sound "Bass" # n "[1|2|3]"
   ]
 
-once $ sound "~ DrumHits:4" # orbit 1 # room 1 # size 1
+once $ sound "~ DrumHits:4" # orbit 1 # room 0.8 # size 0.1
 
 #!supercollider
 
