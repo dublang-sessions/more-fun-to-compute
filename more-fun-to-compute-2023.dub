@@ -27,6 +27,10 @@ video "videos-blade-runner:06"
 
 video "videos-12-monkeys:03"
 
+#!obs
+
+scene.set scene1
+
 video "videos-1984:04"
 
 video "videos-dune:${VIDEO}"
