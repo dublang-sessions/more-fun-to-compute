@@ -228,7 +228,7 @@ xfadeIn 4 32
   # gain 0.8
   # pan (slow 16 $ sine)
 
-d5
+xfadeIn 5 32
   $ often (|- speed "0.2")
   $ degradeBy 0.25
   $ note (scale "chromatic" (run 4))
