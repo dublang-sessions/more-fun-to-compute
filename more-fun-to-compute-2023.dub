@@ -296,7 +296,7 @@ d5
   $ note (scale "chromatic" (run 4))
   # sound "bass2:3"
   # lpf 1500
-  # shape 0 # gain 1
+  # shape 0 # gain 0.7
 
 #!obs
 |repeat 10
