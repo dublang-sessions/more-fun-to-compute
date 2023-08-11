@@ -127,6 +127,7 @@ d1
   # gain 0.8
   # squiz 2
   |+ squiz (rand * 0.5)
+  # vowel "<a e>"
 
 
 #!espeak
