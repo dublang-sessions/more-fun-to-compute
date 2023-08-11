@@ -65,10 +65,6 @@ so...
 .
 (it's more fun to compute)
 
-#!obs
-
-scene.set scene0
-
 #!socat
 
 video "videos-12-monkeys:01"
@@ -77,6 +73,10 @@ video "videos-12-monkeys:01"
 
 ~synth.set(\freq, 620);
 ~synth.set(\mul, 0.05);
+
+#!obs
+
+scene.set scene0
 
 #!tidalcycles
 
