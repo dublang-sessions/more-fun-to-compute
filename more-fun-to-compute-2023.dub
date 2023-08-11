@@ -55,12 +55,27 @@ today is 11 august 2023.
 
 video "videos-12-monkeys:01"
 
-video "videos-1984:01"
-
 #!supercollider
 
 ~synth.set(\freq, 910);
 ~synth.set(\mul, 0.01);
+
+#!socat
+
+video "videos-1984:01"
+
+#!tidalcycles
+
+d1
+  $ slow 2
+  $ stut 4 0.75 0.5
+  $ sound "super808" # n "<0.2 0.2 02 0.4 0.4>"
+  # gain 1.2
+  # shape 0.3
+  # attack 1 # hold 2 # rel 2
+  |+ shape (slow 16 $ sine * 0.2)
+  |+ gain (slow 8 $ sine * 0.2)
+  # pan (slow 16 $ sine)
 
 #!obs
 
