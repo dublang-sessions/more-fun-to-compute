@@ -98,7 +98,8 @@ d8
   $ slow 4
   $ stack [
     sound "Beats",
-    sound "~ DrumHits:2*2"
+    sound "~ DrumHits:2*2",
+    sound "DrumHits:4*8" # gain 0.8
   ]
 
 d9
