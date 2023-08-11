@@ -345,7 +345,7 @@ xfadeIn 1 16 $ silence
 
 xfadeIn 2 16 $ silence
 
-xfadeIn 1 16 $ silence
+xfadeIn 3 16 $ silence
 
 xfadeIn 1 16 $ silence
 
