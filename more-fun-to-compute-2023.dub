@@ -31,6 +31,8 @@ scene.set scene0
 
 video "videos-12-monkeys:01"
 
+video "videos-dune:01"
+
 #!obs
 
 scene.set scene1
