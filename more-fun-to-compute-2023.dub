@@ -137,10 +137,6 @@ vim.env.SCENE = math.random(6)
 
 ~synth.set(\freq, ${FREQ} * 1.5);
 
-#!obs
-
-scene.set scene1
-
 #!espeak
 |repeat 33
 
@@ -152,6 +148,10 @@ you will.
 be assimilated.
 .
 human beings.
+
+#!obs
+
+scene.set scene1
 
 #!socat
 
