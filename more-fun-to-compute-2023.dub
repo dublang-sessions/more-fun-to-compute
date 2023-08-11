@@ -110,7 +110,7 @@ d1
   # pan "[0|0.5|1]"
   # gain 1 # shape 0
 
-d2
+xfadeIn 2 16
   $ slow 4
   $ note "[e1|c1|d1]"
   # sound "supersiren"
