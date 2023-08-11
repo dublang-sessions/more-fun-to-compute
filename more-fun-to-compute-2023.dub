@@ -70,7 +70,7 @@ d1
   $ slow 2
   $ stut 4 0.75 0.5
   $ sound "super808"
-  # n "<1>"
+  # n "<1 2>"
   # gain 1
   # shape 0.1
   # attack 0.5 # hold 1 # rel 2
