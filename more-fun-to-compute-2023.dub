@@ -431,7 +431,6 @@ Bye.
 #!socat
 |repeat 2
 
-
 vf set "cas:strength=1"
 
 vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=1"
