@@ -80,7 +80,7 @@ d1
 #!supercollider
 
 ~synth.set(\freq, 60);
-~synth.set(\mul, 0.05);
+~synth.set(\mul, 0.06);
 ~synth.set(\add, 2);
 
 #!socat
