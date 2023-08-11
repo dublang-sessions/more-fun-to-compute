@@ -178,16 +178,14 @@ xfadeIn 3 16
   # orbit 5 # size 0.5 # room 0.5
   |+ room (rand * 0.4) |+ size (rand * 0.4)
 
-d5 silence
-
 #!tidalcycles
 
 d1
   $ slow 2
   $ stut 4 0.75 0.5
   $ sound "super808" # n "<0.2 0.2 02 0.4 0.4>"
-  # gain 1.2
-  # shape 0.3
+  # gain 1
+  # shape 0
   # attack 1 # hold 2 # rel 2
   |+ shape (slow 16 $ sine * 0.2)
   |+ gain (slow 8 $ sine * 0.2)
