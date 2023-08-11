@@ -23,6 +23,8 @@ video "videos-blade-runner:06"
 
 ~synth = Synth(\saw);
 
+~synth.free;
+
 #!socat
 
 video "videos-12-monkeys:03"
@@ -30,6 +32,8 @@ video "videos-12-monkeys:03"
 #!obs
 
 scene.set scene1
+
+record.start
 
 video "videos-1984:04"
 
