@@ -161,7 +161,7 @@ ab-loop
 
 #!tidalcycles
 
-xfadeIn 5 16
+xfadeIn 3 16
   $ rarely (degrade)
   $ often (|+ gain 0.3)
   $ superimpose (chop 8)
@@ -178,6 +178,8 @@ xfadeIn 5 16
   # orbit 5 # size 0.5 # room 0.5
   |+ room (rand * 0.4) |+ size (rand * 0.4)
 
+
+
 #!tidalcycles
 
 d1
@@ -193,23 +195,6 @@ d1
   # pan (slow 16 $ sine)
 
   $ off 2 ((|+ up (${FREQ} / 5)) . (|+ gain 0.2))
-
-d3
-  $ often (|- speed "0.2")
-  $ degradeBy 0.25
-  $ note (scale "chromatic" (run 4))
-  # sound "bass2:3"
-  # lpf 1500
-  # shape 0 # gain 1
-
-d4
-  $ sometimes (off 0.125 (|+ up 4))
-  $ stut 10 0.75 0.25
-  $ slow 8
-  $ sound "cp cp? cp/2 cp/3"
-  # speed 0.2
-  # shape 0
-  # vowel "[a|i|o]"
 
 #!obs
 
@@ -241,16 +226,22 @@ d6
   # gain 0.8
   # pan (slow 16 $ sine)
 
-xfadeIn 7 16
+d3
+  $ often (|- speed "0.2")
+  $ degradeBy 0.25
+  $ note (scale "chromatic" (run 4))
+  # sound "bass2:3"
+  # lpf 1500
+  # shape 0 # gain 1
+
+d4
+  $ sometimes (off 0.125 (|+ up 4))
+  $ stut 10 0.75 0.25
   $ slow 8
-  $ note "[c'maj, c2*8]"
-  # sound "superfm"
-  # attack 1 # hold 4 # release 1
-  # gain 1.1 # shape 0.2
-
-d7 silence
-
-hush
+  $ sound "cp cp? cp/2 cp/3"
+  # speed 0.2
+  # shape 0
+  # vowel "[a|i|o]"
 
 
 #!obs
@@ -329,6 +320,18 @@ seek 1845 absolute
 seek -2
 
 ab-loop
+
+
+xfadeIn 7 16
+  $ slow 8
+  $ note "[c'maj, c2*8]"
+  # sound "superfm"
+  # attack 1 # hold 4 # release 1
+  # gain 1.1 # shape 0.2
+
+d7 silence
+
+hush
 
 
 
