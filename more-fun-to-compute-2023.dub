@@ -190,7 +190,7 @@ vim.env.SCENE = math.random(6)
 ~synth.set(\add, 0.8);
 ~synth.set(\mul, 0.1);
 
-~synth.set(\freq, ${FREQ} * 2);
+~synth.set(\freq, ${FREQ} * 1.5);
 
 #!espeak
 |repeat 10
