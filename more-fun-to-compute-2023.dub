@@ -105,7 +105,7 @@ d9
   $ slowcat [
     sound "Bass:0",
     sound "Bass:0",
-    sound "Bass:1"
+    sound "Bass" # n "[1|2]"
   ]
 
 once $ sound "~ DrumHits:4" # orbit 1 # room 1 # size 1
