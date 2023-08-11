@@ -64,8 +64,6 @@ scene.set scene0
 
 video "videos-12-monkeys:01"
 
-vf set ""
-
 #!supercollider
 
 ~synth.set(\freq, 620);
@@ -91,8 +89,7 @@ d1
 #!socat
 
 video "videos-blade-runner:01"
-
-video "videos-1984:01"
+vf set ""
 
 #!tidalcycles
 
@@ -137,7 +134,6 @@ vim.env.SCENE = math.random(6)
 #!obs
 
 scene.set scene1
-
 
 #!socat
 
