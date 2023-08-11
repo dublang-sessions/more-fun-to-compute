@@ -349,6 +349,8 @@ xfadeIn 3 16 $ silence
 
 xfadeIn 4 16 $ silence
 
+xfadeIn 5 16 $ silence
+
 #!espeak
 
 I'm Joenio Marques da Costa.
