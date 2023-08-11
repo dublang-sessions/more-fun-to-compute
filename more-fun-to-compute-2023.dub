@@ -241,7 +241,7 @@ d1
   $ sound "808(5,8)"
   # n "<0 2 0 1>"
   # gain 1
-  # shape 0.1
+  # shape 0.2
   |+ shape (slow 16 $ sine * 0.2)
   |+ gain (slow 8 $ sine * 0.2)
   # pan (slow 16 $ sine)
