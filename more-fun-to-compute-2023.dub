@@ -64,6 +64,8 @@ scene.set scene0
 
 video "videos-12-monkeys:01"
 
+vf set ""
+
 #!supercollider
 
 ~synth.set(\freq, 620);
