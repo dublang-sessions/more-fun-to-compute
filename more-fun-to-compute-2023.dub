@@ -333,6 +333,8 @@ record.stop
 
 #!obs
 
+scene.set scene0
+
 record.stop
 
 #!tidalcycles
