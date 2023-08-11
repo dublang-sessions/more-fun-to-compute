@@ -82,6 +82,8 @@ scene.set scene1
 
 record.start
 
+#!socat
+
 video "videos-1984:04"
 
 video "videos-dune:${VIDEO}"
