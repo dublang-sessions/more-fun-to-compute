@@ -235,7 +235,6 @@ d3
   |+ room (rand * 0.4) |+ size (rand * 0.4)
   # squiz 2 # cut 3
 
-
 d7
   $ stut 4 0.75 0.125
   $ degrade
@@ -279,7 +278,7 @@ scene.set scene4
 
 #!tidalcycles
 
-xfadeIn 4 32
+d4
   $ degradeBy 0.1
   $ fast 2
   $ superimpose (rev)
