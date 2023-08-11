@@ -94,7 +94,7 @@ d1
 setcps (126/60/2)
 
 d8
-  $ superimpose ((# lpf 2000) . (# nudge 0.01))
+  $ superimpose ((# lpf 2000) . (# nudge 0.02))
   $ slow 4
   $ stack [
     sound "Beats",
