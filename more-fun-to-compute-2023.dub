@@ -33,6 +33,10 @@ video "videos-12-monkeys:01"
 
 video "videos-dune:01"
 
+#!espeak
+
+in the beginning.
+
 #!obs
 
 scene.set scene1
