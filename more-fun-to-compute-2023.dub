@@ -245,7 +245,12 @@ vf set "chromakey=black,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
 #!obs
 
-scene.set scene6
+scene.set scene3
+
+#!obs
+|repeat 20
+
+scene.set scene${SCENE}
 
 -- from this poins above are all drafts and snippets
 
