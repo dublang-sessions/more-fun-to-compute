@@ -231,6 +231,7 @@ scene.set scene2
 |repeat 10
 
 video "videos-dune:${VIDEO}"
+vf set ""
 
 vf set "chromakey=black,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
