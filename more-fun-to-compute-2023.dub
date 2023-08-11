@@ -256,7 +256,6 @@ scene.set scene${SCENE}
 |repeat 10
 
 ~synth.set(\add, ${RAND});
-
 ~synth.set(\freq, ${FREQ} * 1.5);
 
 -- from this poins above are all drafts and snippets
