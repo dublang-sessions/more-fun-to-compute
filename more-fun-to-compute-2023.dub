@@ -4,6 +4,8 @@ s.scope;
 
 #!socat
 
+cycle stop
+
 cycle mute
 set loop inf
 video "videos-blade-runner:06"
