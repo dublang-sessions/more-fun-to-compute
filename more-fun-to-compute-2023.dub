@@ -30,7 +30,7 @@ video "videos-12-monkeys:03"
 
 #!obs
 
-scene.set scene2
+scene.set scene1
 
 record.start
 
