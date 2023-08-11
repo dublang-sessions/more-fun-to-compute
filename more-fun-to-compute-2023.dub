@@ -229,10 +229,12 @@ hush
 scene.set scene2
 
 #!socat
+|repeat 10
+
+video "videos-dune:${VIDEO}"
 
 video "videos-1984:04"
 
-video "videos-dune:${VIDEO}"
 
 vf set "cas:strength=${RAND}"
 
