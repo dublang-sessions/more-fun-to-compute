@@ -62,12 +62,10 @@ scene.set scene0
 
 video "videos-12-monkeys:01"
 
-vf set "avgblur:sizeX=3:sizeY=2,cas:strength=1"
-
-vf set ""
-
-
 #!supercollider
+
+~synth.set(\freq, 400);
+~synth.set(\mul, 0.2);
 
 ~synth.set(\freq, 910);
 ~synth.set(\mul, 0.01);
