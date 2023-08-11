@@ -68,7 +68,6 @@ video "videos-1984:01"
 
 d1
   $ slow 2
-  $ stut 4 0.75 0.5
   $ sound "super808"
   # n "<1 2>"
   # shape 0.5
