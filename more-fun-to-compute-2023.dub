@@ -7,7 +7,7 @@ s.scope;
 cycle mute
 set loop inf
 
-video "videos-blade-runner:03"
+video "videos-blade-runner:01"
 
 #!socat
 |repeat 4
@@ -72,10 +72,7 @@ ab-loop
 
 return dublang.config.path.sounds
 
-
 |repeat 2
-
-return vim.env.PORT
 
 vim.env.COUNT = 1
 
@@ -91,8 +88,6 @@ vim.env.SCENE = math.random(6)
 
 #!supercollider
 |repeat 5
-
-s.scope;
 
 (
   SynthDef.new(\saw, {
