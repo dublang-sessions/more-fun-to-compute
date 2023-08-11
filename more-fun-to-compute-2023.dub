@@ -130,6 +130,8 @@ video "videos-blade-runner:02"
 
 vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=0.1"
 
+vf set ""
+
 #!tidalcycles
 
 d1
