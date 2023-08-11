@@ -224,7 +224,7 @@ d3
 
 
 d7
-  $ stut 8 0.75 0.125
+  $ stut 4 0.75 0.125
   $ degrade
   $ gap 8
   $ slow 2
