@@ -216,26 +216,18 @@ xfadeIn 3 32
       degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
       degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
       degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*16" # n 0 # speed 1.5 # gain 1.2
+      degrade $ sound "hh*16" # n 0 # speed 1.5 # gain 1.2,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh27*16" # n 0 # speed 1.5 # gain 1 # cut 1,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1
     ]
   ]
   # orbit 5 # size 0.5 # room 0.5
   |+ room (rand * 0.4) |+ size (rand * 0.4)
 
 #!tidalcycles
-
-d1
-  $ slow 2
-  $ stut 2 0.75 0.5
-  $ off 2 ((|+ up (${FREQ} / 5)) . (|+ gain 0.2))
-  $ sound "super808" # n "<0.2 0.2 02 0.4 0.4>"
-  # gain 0.7
-  # shape 0
-  # attack 1 # hold 2 # rel 2
-  |+ shape (slow 16 $ sine * 0.2)
-  |+ gain (slow 8 $ sine * 0.2)
-  # squiz (${FREQ} / 50)
-  # pan (slow 16 $ sine)
 
 d1
   $ sound "808(5,8)"
