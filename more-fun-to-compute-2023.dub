@@ -161,6 +161,36 @@ ab-loop
 
 #!tidalcycles
 
+d5 silence
+
+xfadeIn 5 16
+  $ rarely (degrade)
+  $ often (|+ gain 0.3)
+  $ superimpose (chop 8)
+  $ stack[
+    sound "hh27(5,8)" # n (irand 4) # gain 1,
+    slowcat [
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
+      degrade $ sound "hh*16" # n 0 # speed 1.5 # gain 1.2
+    ]
+  ]
+  # orbit 5 # size 0.5 # room 0.5
+  |+ room (rand * 0.4) |+ size (rand * 0.4)
+
+d6
+  $ degradeBy 0.1
+  $ fast 2
+  $ superimpose (rev)
+  $ sound "jazz:3(5,8)"
+  # speed 1.2
+  # squiz 2.3
+  # shape 0
+
+#!tidalcycles
+
 d1
   $ slow 2
   $ stut 4 0.75 0.5
@@ -192,33 +222,6 @@ d4
   # shape 0
   # vowel "[a|i|o]"
 
-d5 silence
-
-xfadeIn 5 16
-  $ rarely (degrade)
-  $ often (|+ gain 0.3)
-  $ superimpose (chop 8)
-  $ stack[
-    sound "hh27(5,8)" # n (irand 4) # gain 1,
-    slowcat [
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*8" # n 0 # speed 1.5 # gain 1,
-      degrade $ sound "hh*16" # n 0 # speed 1.5 # gain 1.2
-    ]
-  ]
-  # orbit 5 # size 0.5 # room 0.5
-  |+ room (rand * 0.4) |+ size (rand * 0.4)
-
-d6
-  $ degradeBy 0.1
-  $ fast 2
-  $ superimpose (rev)
-  $ sound "jazz:3(5,8)"
-  # speed 1.2
-  # squiz 2.3
-  # shape 0
 
 d7
   $ slow 8
