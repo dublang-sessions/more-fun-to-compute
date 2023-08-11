@@ -245,7 +245,7 @@ scene.set scene${SCENE}
 
 #!tidalcycles
 
-d6
+xfadeIn 6 64
   $ sometimes (off 0.125 (|+ up 4))
   $ stut 10 0.75 0.25
   $ slow 8
