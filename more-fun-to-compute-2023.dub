@@ -183,6 +183,7 @@ xfadeIn 3 16
 d1
   $ slow 2
   $ stut 4 0.75 0.5
+  $ off 2 ((|+ up (${FREQ} / 5)) . (|+ gain 0.2))
   $ sound "super808" # n "<0.2 0.2 02 0.4 0.4>"
   # gain 0.9
   # shape 0.1
@@ -192,7 +193,6 @@ d1
   # squiz (${FREQ} / 50)
   # pan (slow 16 $ sine)
 
-  $ off 2 ((|+ up (${FREQ} / 5)) . (|+ gain 0.2))
 
 #!obs
 
