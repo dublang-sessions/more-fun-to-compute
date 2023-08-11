@@ -94,7 +94,7 @@ d1
 setcps (126/60/2)
 
 d8
-  $ superimpose (# lpf 1000)
+  $ superimpose (# lpf 2000)
   $ slow 4
   $ stack [
     sound "Beats",
