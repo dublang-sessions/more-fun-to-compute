@@ -215,6 +215,7 @@ d2
   # pan (slow 3 $ rand)
   |+ shape (rand * 0.3)
   # tremr (irand 2) # tremdp (irand 3)
+  # orbit 2
 
 d3
   $ often (|- speed "0.2")
