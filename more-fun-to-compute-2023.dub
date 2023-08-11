@@ -394,7 +394,7 @@ d7 $ silence
 
 #!tidalcycles
 
-xfadeIn 1 64 $ silence
+xfadeIn 2 64 $ silence
 
 xfadeIn 2 32 $ silence
 
