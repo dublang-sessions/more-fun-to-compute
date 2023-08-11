@@ -144,6 +144,7 @@ d1
   # gain 1 # shape 0
 
 d2
+  $ chop 8
   $ slow 8
   $ note "[e|c|d]"
   # sound "supersiren"
