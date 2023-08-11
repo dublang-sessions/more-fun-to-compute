@@ -247,7 +247,7 @@ vf set "chromakey=black,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
 #!obs
 
-scene.set scene3
+scene.set scene4
 
 #!obs
 |repeat 20
