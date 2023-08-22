@@ -145,7 +145,7 @@ fire!
 ~synth.set(\mul, 0.1);
 ~synth.set(\add, 2);
 
-#!socat
+#!mpv
 
 video "videos-blade-runner:02"
 
