@@ -327,7 +327,7 @@ d6
 
 ----- from this poins above are all drafts and snippets ----------
 
-#!socat
+#!mpv
 |repeat 10
 
 video "videos-dune:${VIDEO}"
