@@ -41,7 +41,7 @@ vf set "scroll:v=0.001"
 
 ~synth = Synth(\saw);
 
-#!socat
+#!mpv
 
 video "videos-dune:01"
 
