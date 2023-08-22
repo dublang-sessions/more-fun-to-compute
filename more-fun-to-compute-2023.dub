@@ -16,7 +16,7 @@ scene.set scene0
 
 record.start
 
-#!socat
+#!mpv
 
 cycle mute
 set loop inf
