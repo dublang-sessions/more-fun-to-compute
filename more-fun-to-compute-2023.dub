@@ -342,7 +342,7 @@ vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
 
 vf set ""
 
-#!socat
+#!mpv
 
 vf set "cas:strength=${RAND}"
 
