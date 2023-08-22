@@ -351,6 +351,7 @@ vf set "boxblur=luma_radius=12:luma_power=0"
 
 vf set "chromakey=blue"
 
+vf set "colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=2:sizeY=4,cas:strength=0.97"
 
 vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=2:sizeY=4,cas:strength=0.97"
  
