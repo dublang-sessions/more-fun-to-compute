@@ -239,6 +239,8 @@ d3
   |+ room (rand * 0.4) |+ size (rand * 0.4)
   # squiz 2 # cut 3
 
+d3 $ silence
+
 d7
   $ stut 4 0.75 0.125
   $ degrade
