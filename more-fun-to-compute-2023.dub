@@ -77,7 +77,7 @@ so...
 .
 (it's more fun to compute)
 
-#!socat
+#!mpv
 
 video "videos-12-monkeys:01"
 
