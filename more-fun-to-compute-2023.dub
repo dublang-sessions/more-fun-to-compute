@@ -115,6 +115,7 @@ d9
     sound "Bass:0",
     sound "Bass" # n "[1|2|3]"
   ]
+  |+ up 8
 
 once
   $ sound "~ [DrumHits:8 DrumHits:9]"
