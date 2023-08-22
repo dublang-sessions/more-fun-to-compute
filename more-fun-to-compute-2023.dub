@@ -25,6 +25,8 @@ vf set ""
 
 seek 2 absolute
 
+vf set "scroll:v=0.001"
+
 #!supercollider
 
 (
