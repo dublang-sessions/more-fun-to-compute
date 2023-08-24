@@ -73,7 +73,7 @@ video "videos-12-monkeys:01"
 
 ~synth.set(\freq, 220);
 ~synth.set(\mul, 0.1);
-~synth.set(\add, 0.7);
+~synth.set(\add, 0.6);
 
 #!tidalcycles
 
