@@ -459,6 +459,8 @@ scene.set scene0
 
 #!espeak
 
+#!sm
+
 I'm Joenio.
 .
 using dublang and Debian.
