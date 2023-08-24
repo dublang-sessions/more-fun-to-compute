@@ -296,6 +296,8 @@ d1
   # speed 0.4
   # vowel "o"
 
+hush
+
 #!obs
 
 scene.set scene3
