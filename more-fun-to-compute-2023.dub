@@ -144,7 +144,9 @@ d4
 d5
   $ stack [
     sound "bd",
-    sound "bd*2"
+    sound "bd*2",
+    sound "bd*3",
+    sound "bd*4"
   ]
 
 #!obs
