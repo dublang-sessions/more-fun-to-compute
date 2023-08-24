@@ -120,6 +120,8 @@ d2
   # orbit 2
   |- gain (rand * 0.2)
 
+d2 $ silence
+
 d3
   $ slow 2
   $ stack[
