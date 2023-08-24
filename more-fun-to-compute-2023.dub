@@ -189,14 +189,11 @@ d3
   |+ room (rand * 0.4) |+ size (rand * 0.4)
   # cut 3
 
-
-d7
+d4
   $ stut 4 0.75 0.125
-  $ degrade
-  $ gap 8
   $ slow 2
   $ note "[c'maj, c2*8]"
- # sound "[superfm, moog?]"
+  # sound "[superfm, moog?]"
   # gain 0.6 # shape 0
 
 #!obs
