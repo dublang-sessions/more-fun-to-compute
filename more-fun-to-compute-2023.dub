@@ -473,7 +473,8 @@ You can visit my website at www.joenio.me
 .
 Bye.
 
-#!socat
+#!mpv
+
 |repeat 2
 
 vf set "cas:strength=1"
