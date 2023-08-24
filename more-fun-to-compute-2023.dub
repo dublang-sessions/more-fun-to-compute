@@ -71,7 +71,7 @@ video "videos-12-monkeys:01"
 
 #!supercollider
 
-~synth.set(\freq, 620);
+~synth.set(\freq, 720);
 ~synth.set(\mul, 0.05);
 
 #!tidalcycles
