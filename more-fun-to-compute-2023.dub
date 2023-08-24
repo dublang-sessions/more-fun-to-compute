@@ -1,24 +1,8 @@
-#!sm
-|repeat 2
-
-more
-
-#!dublang
-|repeat 1
-
-sm("run!", "zoomout")
-
 #!supercollider
 
 s.scope;
 
 ~dirt.loadSoundFiles("${HOME}/art/sounds/musicradar-dub-126bpm/*");
-
-#!espeak
-
-ping
-
-hello all
 
 #!obs
 
