@@ -21,7 +21,7 @@ it's more
 #!dublang
 |repeat 1
 
-sm("is it more fun?", "zoomout")
+sm("run!", "zoomout")
 
 #!supercollider
 
