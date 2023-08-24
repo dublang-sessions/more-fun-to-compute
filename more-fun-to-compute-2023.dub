@@ -100,7 +100,7 @@ once
   # gain 1
 
 
-d1
+d2
   $ n (run 10)
   # sound "arpy"
   # gain 0.8
