@@ -209,7 +209,6 @@ Bye.]], "typewrite")
 ~synth.set(\freq, ${FREQ} * 1.5);
 
 #!espeak
-|repeat 10
 
 resistance.
 is.
