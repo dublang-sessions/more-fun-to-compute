@@ -181,7 +181,7 @@ d3
   $ stack[
     sound "hh27(2,8)" # n (irand 4) # gain 1,
     slowcat [
-      sound "hh*4" # n (irand 3) # speed 0.8 # gain 1 |+ n 2,
+      sound "hh*4" # n (irand 3) # speed 0.3 # gain 1 |+ n 2,
       sound "hh*2" # n (irand 3) # speed 0.5 # gain 1 |+ n 3
     ]
   ]
