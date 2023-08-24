@@ -223,11 +223,11 @@ vim.env.SCENE = math.random(7) - 1
 
 #!dublang
 
-sm([[I'm Joenio,
+sm([[I'm Joenio
 I use dublang
 and
-debian,
-Thank you,
+debian
+Thank you
 Bye.]], "typewrite")
 
 #!supercollider
