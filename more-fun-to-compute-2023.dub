@@ -19,14 +19,6 @@ set loop inf
 video "videos-blade-runner:06"
 vf set ""
 
-seek 5 absolute
-
-vf set "scroll:v=-0.008:h=0.001"
-
-video "videos-1984:06"
-
-video "videos-12-monkeys:06"
-
 #!supercollider
 
 (
