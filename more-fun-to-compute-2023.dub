@@ -21,7 +21,7 @@ vf set ""
 
 seek 5 absolute
 
-vf set "scroll:v=0.008"
+vf set "scroll:v=0.008:h=0.001"
 
 video "videos-1984:06"
 
