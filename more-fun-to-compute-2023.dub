@@ -308,7 +308,7 @@ hush
 scene.set scene3
 
 #!mpv
-|repeat 5
+|repeat 10
 
 video "${NAME}:${VIDEO}"
 
