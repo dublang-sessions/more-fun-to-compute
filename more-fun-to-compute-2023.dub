@@ -33,6 +33,8 @@ seek 2 absolute
 
 vf set "scroll:v=0.001"
 
+video "videos-1984:06"
+
 #!supercollider
 
 (
