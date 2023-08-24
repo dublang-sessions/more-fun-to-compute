@@ -182,7 +182,7 @@ d3
     sound "hh27(2,8)" # n (irand 4) # gain 1,
     slowcat [
       sound "hh*4" # n (irand 3) # speed 0.8 # gain 1 |+ n 2,
-      sound "hh*2" # n (irand 4) # speed 0.5 # gain 1 |+ n 3
+      sound "hh*2" # n (irand 3) # speed 0.5 # gain 1 |+ n 3
     ]
   ]
   # orbit 5 # size 0.5 # room 0.5
