@@ -19,7 +19,7 @@ set loop inf
 video "videos-blade-runner:06"
 vf set ""
 
-seek 3 absolute
+seek 5 absolute
 
 vf set "scroll:v=0.002"
 
