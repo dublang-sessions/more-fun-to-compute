@@ -196,6 +196,8 @@ d4
   # sound "[superfm, moog?]"
   # gain 0.6 # shape 0
 
+d4 $ silence
+
 #!obs
 
 scene.set scene1
