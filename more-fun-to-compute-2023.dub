@@ -142,7 +142,10 @@ d4
   # gain 0.8
 
 d5
-  $ sound "bd"
+  $ stack [
+    sound "bd",
+    sound "bd*2"
+  ]
 
 #!obs
 
