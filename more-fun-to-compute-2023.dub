@@ -78,13 +78,13 @@ video "videos-12-monkeys:01"
 #!tidalcycles
 
 d1
-  $ slow 6
+  $ slow 3
   $ sound "super808"
   # n "4"
-  # lpf 400
-  # orbit 1 # size 0.5 # room 0.5
+  # lpf 300
+  # orbit 1 # size 0.65 # room 0.75
   # pan "[0|0.5|1]"
-  # gain 0.9 # shape 0
+  # gain 0.8 # shape 0.2
 
 d9
   $ slow 4
