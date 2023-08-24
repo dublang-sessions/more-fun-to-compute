@@ -195,7 +195,7 @@ be assimilated.]], 'typewrite')
 
 video "videos-blade-runner:02"
 
-vf set "bilateral:sigmaS=5:sigmaR=5,cas:strength=0.99"
+vf set "cas:strength=0.99"
 
 #!dublang
 
