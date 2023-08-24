@@ -161,7 +161,7 @@ d5
     ]
   ]
 
-xfadeIn 2 32 $ silence
+xfadeIn 3 32 $ silence
 
 #!obs
 
