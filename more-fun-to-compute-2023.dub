@@ -50,7 +50,7 @@ vf set ""
 
 seek 2 absolute
 
-vf set "scroll:v=0.001"
+vf set "scroll:v=0.002"
 
 video "videos-1984:06"
 
