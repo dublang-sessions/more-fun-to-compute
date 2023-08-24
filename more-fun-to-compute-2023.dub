@@ -41,6 +41,8 @@ scene.set scene0
 
 record.start
 
+stream.start
+
 #!mpv
 
 cycle mute
