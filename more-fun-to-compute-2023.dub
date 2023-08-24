@@ -153,24 +153,12 @@ d3
   |+ gain 0.2
 
 d4
+  $ off "-0.25" (|- up 8)
   $ stut 2 0.75 0.125
   $ slow 2
   $ note "[c'maj, c2*4]"
   # sound "superfm"
   # gain 0.8
-
-d1
-  $ sound "808(5,8)"
-  # n "<0 2 0 1>"
-  # gain 1
-  # shape 0.2
-  |+ shape (slow 16 $ sine * 0.2)
-  |+ gain (slow 8 $ sine * 0.2)
-  # pan (slow 16 $ sine)
-  # speed 0.4
-  # vowel "o"
-
-hush
 
 #!obs
 
