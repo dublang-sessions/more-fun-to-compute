@@ -161,6 +161,8 @@ d5
     ]
   ]
 
+xfadeIn 1 32 $ silence
+
 #!obs
 
 scene.set scene1
