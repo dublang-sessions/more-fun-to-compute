@@ -298,7 +298,7 @@ d1
 
 scene.set scene3
 
-#!socat
+#!mpv
 |repeat 10
 
 video "videos-dune:${VIDEO}"
