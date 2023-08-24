@@ -139,6 +139,7 @@ d2
   |- gain (rand * 0.2)
 
 d3
+  $ slow 2
   $ stack[
     sound "hh27(2,8)" # n (irand 4) # gain 1 # speed 0.2,
     slowcat [
