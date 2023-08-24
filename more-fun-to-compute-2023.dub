@@ -22,7 +22,7 @@ fun
 to compute!
 
 #!dublang
-|repeat 2
+|repeat 1
 
 sm("fun", "typewrite")
 
