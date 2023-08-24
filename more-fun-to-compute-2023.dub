@@ -115,12 +115,6 @@ d2
 ~synth.set(\mul, 0.1);
 ~synth.set(\add, 2);
 
-#!mpv
-
-video "videos-blade-runner:02"
-
-vf set "bilateral:sigmaS=5:sigmaR=5,cas:strength=0.1"
-
 
 #!tidalcycles
 
@@ -195,6 +189,13 @@ futile.
 .
 you will.
 be assimilated.]], 'typewrite')
+
+
+#!mpv
+
+video "videos-blade-runner:02"
+
+vf set "bilateral:sigmaS=5:sigmaR=5,cas:strength=0.1"
 
 #!dublang
 
