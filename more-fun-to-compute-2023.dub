@@ -101,8 +101,6 @@ once
 
 
 d1
-  $ sometimes (superimpose (palindrome . rev))
-  $ gap 4
   $ n (run 10)
   # sound "arpy"
   # gain 0.8
