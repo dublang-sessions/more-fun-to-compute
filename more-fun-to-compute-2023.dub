@@ -99,7 +99,6 @@ once
   # room 0.8 # size 0.9
   # gain 1
 
-
 d2
   $ n (run 10)
   # sound "arpy"
@@ -109,11 +108,6 @@ d2
   # vowel "<a e>"
   # pan (slow 8 $ sine)
   |- gain (slow 8 $ sine * 0.4)
-
-
-#!espeak
-
-fire!
 
 #!supercollider
 
@@ -125,7 +119,7 @@ fire!
 
 video "videos-blade-runner:02"
 
-vf set "bilateral:sigmaS=200:sigmaR=0.25,cas:strength=0.1"
+vf set "bilateral:sigmaS=200:sigmaR=0.01,cas:strength=0.1"
 
 vf set ""
 
