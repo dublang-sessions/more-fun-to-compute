@@ -85,8 +85,6 @@ d1
   # pan "[0|0.5|1]"
   # gain 0.9 # shape 0
 
-setcps (126/60/2)
-
 d8
   $ superimpose ((# lpf 800) . (# nudge 0.2))
   $ slow 4
