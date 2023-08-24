@@ -107,7 +107,7 @@ d1
   # squiz 2
   |+ squiz (rand * 0.5)
   # vowel "<a e>"
-  # pan (slow 2 $ sine)
+  # pan (slow 8 $ sine)
 
 
 #!espeak
