@@ -119,7 +119,7 @@ d2
 
 video "videos-blade-runner:02"
 
-vf set "bilateral:sigmaS=0.5:sigmaR=0.01,cas:strength=0.1"
+vf set "bilateral:sigmaS=0.5:sigmaR=0.5,cas:strength=0.1"
 
 vf set ""
 
