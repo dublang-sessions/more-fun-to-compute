@@ -35,6 +35,8 @@ vf set "scroll:v=0.001"
 
 video "videos-1984:06"
 
+video "videos-12-monkeys:06"
+
 #!supercollider
 
 (
