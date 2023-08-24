@@ -21,6 +21,10 @@ fun
 
 to compute!
 
+#!dublang
+
+sm("fun", "typewrite")
+
 #!supercollider
 
 s.scope;
