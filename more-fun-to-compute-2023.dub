@@ -1,3 +1,7 @@
+#!echo
+
+teste
+
 #!sm
 
 it's more
@@ -115,7 +119,9 @@ d8
   $ stack [
     sound "Beats",
     sound "~ DrumHits:2*2",
-    sound "DrumHits:4*32" # gain 0.8 # cut 1 # speed 0.9 # pan (sine)
+    sound "DrumHits:4*32" # gain 0.8
+    # cut 1 # speed 0.9 # pan (sine)
+    # gain 0.1  
   ]
 
 d9
