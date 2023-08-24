@@ -141,7 +141,7 @@ d4
   $ slow 2
   $ stack [
     note "[<c'maj g'maj>, c2*2]",
-    degrade $ note (scale "dorian" (run 16))
+    degrade $ note (palindrome $ scale "dorian" (run 16))
   ]
   # sound "superfm"
   # gain 0.8
