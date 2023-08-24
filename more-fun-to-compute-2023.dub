@@ -156,7 +156,7 @@ d4
   $ stut 2 0.75 0.125
   $ off "-0.25" (|- up 8)
   $ slow 2
-  $ note "[c'maj, c2*4]"
+  $ note "[<c'maj g'maj>, c2*2]"
   # sound "superfm"
   # gain 0.8
 
