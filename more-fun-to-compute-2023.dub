@@ -1,3 +1,7 @@
+#!sm
+
+hello
+
 #!supercollider
 
 s.scope;
