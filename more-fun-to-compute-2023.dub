@@ -85,7 +85,8 @@ d1
   # pan "[0|0.5|1]"
   # gain 0.9 # shape 0
 
-d9
+d9 $ silence
+
   $ slow 4
   $ slowcat [
     sound "Bass:0",
@@ -137,8 +138,6 @@ d2
   |+ shape (rand * 0.1)
   # orbit 2
   |- gain (rand * 0.2)
-
-d2 $ silence
 
 d3
   $ slow 2
