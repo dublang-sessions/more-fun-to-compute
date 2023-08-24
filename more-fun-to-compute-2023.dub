@@ -147,7 +147,7 @@ d5
     sound "[bd*2, ~ jazz:7*2]",
     sound "[bd*4, ~ [~ [jazz:7/3 jazz:7?]]]",
     sound "bd*8",
-    sound "hh27*8" # speed 0.8 # begin 0.01 # end 0.05
+    sound "hh27*8" # speed 0.5 # begin 0.01 # end 0.05
   ]
 
 #!obs
