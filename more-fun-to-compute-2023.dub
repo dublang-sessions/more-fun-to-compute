@@ -221,7 +221,7 @@ vim.env.FREQ = math.random(200) + 100
 vim.env.SEED = math.random(99) + 1
 vim.env.SCENE = math.random(7) - 1
 obs("scene.set scene${SCENE}")
-espeak("go")
+espeak("${SCENE}")
 
 #!dublang
 
