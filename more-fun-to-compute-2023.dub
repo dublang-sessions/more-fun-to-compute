@@ -136,6 +136,8 @@ d3
   # cut 3
   |+ gain 0.2
 
+xfadeIn 3 16 $ silence
+
 d4
   $ off "-0.25" (|- up 8)
   $ slow 2
