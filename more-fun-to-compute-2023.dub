@@ -12,6 +12,8 @@ record.start
 
 stream.start
 
+stream.stop
+
 #!mpv
 
 cycle mute
