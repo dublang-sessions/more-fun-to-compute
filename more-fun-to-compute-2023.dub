@@ -455,7 +455,7 @@ xfadeIn 6 32 $ silence
 
 scene.set scene${SCENE}
 
-scene.set scene0
+scene.set scene1
 
 #!espeak
 
