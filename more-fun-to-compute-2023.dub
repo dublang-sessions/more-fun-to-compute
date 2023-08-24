@@ -153,13 +153,11 @@ d3
   |+ gain 0.2
 
 d4
-  $ stut 4 0.75 0.125
+  $ stut 2 0.75 0.125
   $ slow 2
-  $ note "[c'maj, c2*8]"
-  # sound "[superfm, moog?]"
-  # gain 0.6 # shape 0
-
-d4 $ silence
+  $ note "[c'maj, c2*4]"
+  # sound "superfm"
+  # gain 0.6
 
 d3
   $ stack[
