@@ -109,24 +109,6 @@ d2
   # pan (slow 8 $ sine)
   |- gain (slow 8 $ sine * 0.4)
 
-#!supercollider
-
-~synth.set(\freq, 100);
-~synth.set(\mul, 0.1);
-~synth.set(\add, 2);
-
-
-#!tidalcycles
-
-d1
-  $ slow 6
-  $ sound "super808"
-  # n "4"
-  # lpf 400
-  # orbit 1 # size 0.7 # room 0.7
-  # pan "[0|0.5|1]"
-  # gain 1 # shape 0
-
 d2
   $ chop 4
   $ slow 4
@@ -158,6 +140,9 @@ d4
   $ note "[<c'maj g'maj>, c2*2]"
   # sound "superfm"
   # gain 0.8
+
+d5
+  $ sound "bd"
 
 #!obs
 
