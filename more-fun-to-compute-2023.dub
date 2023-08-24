@@ -219,7 +219,7 @@ vim.env.VIDEO = string.format("%02d", math.random(10))
 vim.env.RAND = string.format("%f", math.random())
 vim.env.FREQ = math.random(200) + 100
 vim.env.SEED = math.random(99) + 1
-vim.env.SCENE = math.random(6)
+vim.env.SCENE = math.random(7) - 1
 
 #!supercollider
 |repeat 10
