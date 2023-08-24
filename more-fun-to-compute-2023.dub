@@ -204,6 +204,8 @@ Bye.]], "typewrite")
 #!supercollider
 |repeat 10
 
+s.freeAll;
+
 ~synth.set(\add, 0.8);
 
 ~synth.set(\mul, 0.1);
