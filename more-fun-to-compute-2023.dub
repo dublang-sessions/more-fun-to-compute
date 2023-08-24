@@ -135,7 +135,7 @@ d3
   |+ gain 0.2
 
 d4
-  $ superimpose (# tremdp 3)
+  $ superimpose (# tremdp 2)
   $ off "-0.25" (|- up 8)
   $ slow 2
   $ note "[<c'maj g'maj>, c2*2]"
