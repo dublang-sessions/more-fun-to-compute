@@ -1,5 +1,5 @@
 # dublang config (0.4.0) (unreleased)
 
-PLUGINS="espeak git gource obs supercollider tidalcycles fudi socat"
+PLUGINS="espeak git gource obs supercollider tidalcycles mpv nvimqt"
 
 # vim: ft=config
