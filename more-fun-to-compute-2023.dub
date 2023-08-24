@@ -33,10 +33,6 @@ vf set ""
 
 ~synth = Synth(\saw);
 
-#!mpv
-
-video "videos-dune:01"
-
 #!espeak
 
 in the beginning.
