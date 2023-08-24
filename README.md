@@ -5,6 +5,9 @@
 - event site: https://www.facebook.com/events/794806612373747
 - address: Le stockk, 4 boulevard Poissonière, Paris
 
+"It's more fun to compute" 2nd edition:
+- https://www.facebook.com/events/1330666174468272
+
 ## author
 
 Joenio Marques da Costa
