@@ -108,6 +108,7 @@ d1
   |+ squiz (rand * 0.5)
   # vowel "<a e>"
   # pan (slow 8 $ sine)
+  |- gain (slow 8 $ sine * 0.4)
 
 
 #!espeak
