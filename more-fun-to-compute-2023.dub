@@ -139,7 +139,10 @@ d3
 d4
   $ off "-0.25" (|- up 8)
   $ slow 2
-  $ note "[<c'maj g'maj>, c2*2]"
+  $ stack [
+    note "[<c'maj g'maj>, c2*2]",
+    degrade $ note (scale "dorian" (run 16))
+  ]
   # sound "superfm"
   # gain 0.8
 
