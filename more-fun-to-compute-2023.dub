@@ -146,7 +146,7 @@ d5
     sound "[bd, ~ jazz:7]",
     sound "[bd*2, ~ jazz:7]",
     sound "bd*4",
-    sound "bd*8",
+    sound "bd*8"
   ]
 
 #!obs
