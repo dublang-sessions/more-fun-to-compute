@@ -221,7 +221,6 @@ vim.env.FREQ = math.random(200) + 100
 vim.env.SEED = math.random(99) + 1
 vim.env.SCENE = math.random(6)
 
-
 #!supercollider
 |repeat 10
 
@@ -251,7 +250,7 @@ be assimilated.
 
 scene.set scene2
 
-#!socat
+#!mpv
 
 video "videos-blade-runner:04"
 
@@ -302,7 +301,9 @@ d1
 scene.set scene3
 
 #!mpv
-|repeat 10
+|repeat 5
+
+video "${NAME}:${VIDEO}"
 
 video "videos-dune:${VIDEO}"
 
