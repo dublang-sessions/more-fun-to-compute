@@ -159,7 +159,7 @@ be assimilated.
 
 #!mpv
 
-vf set "colorbalance:rs=-0.2:rm=-0.3:rh=0.2"
+add vf "colorbalance:rs=-0.2:rm=-0.3:rh=0.2"
 
 #!obs
 
