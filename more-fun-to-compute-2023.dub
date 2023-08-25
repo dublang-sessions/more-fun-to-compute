@@ -178,7 +178,7 @@ d7
   # gain 1
   # pan (slow 16 $ sine)
 
-d7 $ silence
+d8 $ silence
 
 d8
   $ often (|- speed "0.2")
