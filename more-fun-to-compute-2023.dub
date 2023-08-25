@@ -62,8 +62,7 @@ once
   # room 0.1 # size 0.7
   # gain 1
 
-d2 $ silence
-
+d2
   $ n (run 10)
   # sound "arpy"
   # gain 0.8
@@ -73,16 +72,13 @@ d2 $ silence
   # pan (slow 8 $ sine)
   |- gain (slow 8 $ sine * 0.4)
 
-d2
+xfadeIn 2 16
   $ slow 8
   $ note "[e|c|d]"
   # sound "supersiren"
-  # gain 0.6 # shape 0
   # pan (slow 3 $ rand)
-  |+ shape (rand * 0.1)
   # orbit 2
-  |- gain (rand * 0.2)
-  |- up 8
+  # gain 0.8
 
 d2 $ silence
 
