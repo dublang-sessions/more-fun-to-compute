@@ -112,7 +112,6 @@ d4
     degrade $ note (palindrome $ scale "dorian" (run 16)) # gain 0.8
   ]
   # sound "superfm"
-  # lpf 1000
 
 d5
   $ stack [
@@ -127,7 +126,7 @@ d5
   ]
   # pan (slow 8 sine)
 
-xfadeIn 9 32 $ silence
+xfadeIn 5 32 $ silence
 
 hush
 
