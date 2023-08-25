@@ -70,7 +70,7 @@ d2
   # pan (slow 8 $ sine)
   |- gain (slow 8 $ sine * 0.4)
 
-once
+d2
   $ chop 4
   $ slow 4
   $ note "[e|c|d]"
