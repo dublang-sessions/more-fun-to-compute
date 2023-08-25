@@ -118,7 +118,7 @@ d5
   $ stack [
     sound "[bd, ~ jazz:7]",
     sound "[bd*2, ~ jazz:7*2]",
-    sound "[bd*4]"
+    sound "[bd*4, ~ [~ [jazz:7/3 jazz:7?]]]"
   ]
 
 
