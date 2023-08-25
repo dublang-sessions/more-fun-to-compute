@@ -111,7 +111,7 @@ d4
     note "<c'maj g'maj>"
   ]
   # sound "superfm"
-  # gain 0.8
+  # gain 0.5
 
 d4
   $ off "-0.25" (|- up 8)
