@@ -86,6 +86,7 @@ d1
   # n (irand 32)
   # gain 1
   |+ gain (rand * 0.2)
+  # pan "[0|1]"
 
 d1
   $ slow 3
