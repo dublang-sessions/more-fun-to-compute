@@ -113,17 +113,7 @@ d4
   ]
   # sound "superfm"
 
-d4
-  $ off "-0.25" (|- up 8)
-  $ slow 2
-  $ stack [
-    note "[<c'maj g'maj>, c2*2]",
-    degrade $ note (palindrome $ scale "dorian" (run 16))
-  ]
-  # sound "superfm"
-  # gain 0.8
-
-xfadeIn 5 64
+d5
   $ stack [
     sound "[bd, ~ jazz:7?]",
     sound "[bd*2, ~ jazz:7*2]",
@@ -134,6 +124,8 @@ xfadeIn 5 64
       sound "hh27*8 hh*8?" # speed 0.5 # begin 0.01 # end 0.05 # gain 1.2
     ]
   ]
+  |+ gain 0.1
+  # pan (slow 8 sine)
 
 xfadeIn 9 32 $ silence
 
