@@ -104,8 +104,8 @@ d3 $ silence
 
 xfadeIn 1 16 $ silence
 
-
 d4
+  $ off "-0.25" (|- up 8)
   $ slow 2
   $ stack [
     note "<c'maj g'maj>"
@@ -155,9 +155,9 @@ vim.env.SEED = math.random(99) + 1
 vim.env.SCENE = math.random(7) - 1
 obs("scene.set scene${SCENE}")
 mpv(format('vf set "scroll:v=%s:h=0.001"', (vim.env.RAND * 0.05) - 1))
-
-
 espeak("${SCENE}")
+
+
 sm([[resistance.
 is.
 futile.
