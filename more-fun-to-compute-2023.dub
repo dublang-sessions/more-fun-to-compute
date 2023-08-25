@@ -62,8 +62,7 @@ once
   # room 0.1 # size 0.7
   # gain 1
 
-d2
-  $ gap 4
+xfadeIn 1 32
   $ slow 8
   $ note "[e|c|d]"
   # sound "supersiren"
