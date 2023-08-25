@@ -83,7 +83,7 @@ d2
 
 d2 $ silence
 
-d3
+xfadeIn 3 16
   $ slow 2
   $ stack[
     sound "hh27(2,8)" # n (irand 4) # gain 1 # speed 0.2,
@@ -92,6 +92,7 @@ d3
       sound "hh*2" # n (irand 3) # speed 0.5 # gain 1 |+ n 3
     ]
   ]
+
   # orbit 5 # size 0.5 # room 0.5
   |+ room (rand * 0.4) |+ size (rand * 0.4)
   # cut 3
