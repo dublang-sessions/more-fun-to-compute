@@ -84,6 +84,7 @@ video "videos-12-monkeys:01"
 d1
   $ sound "cp jazz hoover hh27"
   # n (irand 32)
+  # gain 1
   |+ gain (rand * 0.2)
 
 d1
