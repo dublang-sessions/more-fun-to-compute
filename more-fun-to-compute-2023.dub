@@ -83,7 +83,7 @@ d2
 
 d2 $ silence
 
-xfadeIn 3 16
+d3
   $ slow 2
   $ stack[
     sound "hh27(2,8)" # n (irand 4) # gain 1 # speed 0.2,
