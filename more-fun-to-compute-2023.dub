@@ -79,7 +79,7 @@ d2
   # orbit 2
   # gain 0.7
 
-d2 $ silence
+xfadeIn 2 8 $ silence
 
 d3
   $ slow 2
