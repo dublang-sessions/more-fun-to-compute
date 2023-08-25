@@ -109,7 +109,7 @@ d5
   # pan (slow 8 sine)
   # orbit 5 # room 0.8 # size 0.8
 
-xfadeIn 7 64 $ silence
+xfadeIn 8 64 $ silence
 
 d1
   $ sometimes (stut 2 0.75 0.25)
