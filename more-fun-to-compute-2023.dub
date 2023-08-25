@@ -60,7 +60,8 @@ once
   # room 1 # size 1
   # gain 1.2
 
-d2
+d2 $ silence
+
   $ n (run 10)
   # sound "arpy"
   # gain 0.8
