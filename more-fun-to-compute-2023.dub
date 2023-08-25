@@ -35,6 +35,9 @@ vf set ""
 
 ~synth = Synth(\saw);
 
+
+~synth.free;
+
 #!espeak
 
 in the beginning.
