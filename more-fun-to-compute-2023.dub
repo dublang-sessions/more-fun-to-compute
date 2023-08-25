@@ -111,7 +111,10 @@ d5
 
 d1
   $ sometimes (stut 2 0.75 0.25)
-  $ note (scale "dorian" "<0 2> <2 4>")
+  $ stack [
+    note (scale "dorian" "<0 2> <2 4>"),
+    degrade $ note (scale "dorian" (run 4))
+  ]
   # sound "superpiano"
   # attack 0.5 # hold 1 # rel 1
   # gain 1.4
