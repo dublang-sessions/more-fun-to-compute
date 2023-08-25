@@ -47,7 +47,7 @@ vf set ""
 
 d1
   $ slow 3
-  $ sound "super808*5"
+  $ sound "super808*4"
   # n "4"
   # lpf 400
   # orbit 1 # size 0.3 # room 0.3
