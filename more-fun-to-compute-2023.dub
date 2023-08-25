@@ -35,7 +35,6 @@ vf set ""
 
 ~synth = Synth(\saw);
 
-
 ~synth.free;
 
 #!espeak
@@ -90,6 +89,8 @@ d1
   # gain 1
   |+ gain (rand * 0.2)
   # pan "[0|1]"
+
+hush
 
 d1
   $ slow 3
