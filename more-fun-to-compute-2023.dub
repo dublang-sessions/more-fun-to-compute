@@ -106,7 +106,7 @@ d5
     ]
   ]
   # pan (slow 8 sine)
-  # orbit 5 # room 0.2 # size 0.4
+  # orbit 5 # room 0.4 # size 0.4
 
 hush
 
