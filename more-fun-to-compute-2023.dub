@@ -122,7 +122,7 @@ d5
   ]
 
 
-xfadeIn 5 32
+xfadeIn 5 64
   $ stack [
     sound "[bd, ~ jazz:7?]",
     sound "[bd*2, ~ jazz:7*2]",
