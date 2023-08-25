@@ -110,7 +110,7 @@ d5
   # orbit 5 # room 0.8 # size 0.8
 
 d1
-  $ note (scale "dorian" "<0 2>")
+  $ note (scale "dorian" "<0 2> <2 4>")
   # sound "superpiano"
   # attack 0.5 # hold 1 # rel 1
   # gain 1.4
