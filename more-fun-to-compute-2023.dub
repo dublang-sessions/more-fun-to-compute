@@ -43,18 +43,7 @@ vf set ""
 ~synth.set(\mul, 0.1);
 ~synth.set(\add, 0.3);
 
-~synth.free;
-
 #!tidalcycles
-
-d1
-  $ sound "cp jazz hoover hh27"
-  # n (irand 32)
-  # gain 1
-  |+ gain (rand * 0.2)
-  # pan "[0|1]"
-
-hush
 
 d1
   $ slow 3
@@ -65,19 +54,11 @@ d1
   # pan "[0|0.5|1]"
   # gain 0.8 # shape 0.2
 
-d9
-  $ slow 4
-  $ slowcat [
-    sound "Bass:0",
-    sound "Bass:0",
-    sound "Bass" # n "[1|2|3]"
-  ]
-
 once
   $ sound "~ [DrumHits:8 DrumHits:9]"
   # orbit 1
   # room 0.8 # size 0.9
-  # gain 0.8
+  # gain 0.5
 
 d2
   $ n (run 10)
