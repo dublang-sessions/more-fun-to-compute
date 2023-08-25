@@ -81,6 +81,9 @@ video "videos-12-monkeys:01"
 
 #!tidalcycles
 
+d1 $ sound "cp jazz hoover hh27"
+  # n (irand 32)
+
 d1
   $ slow 3
   $ sound "super808"
