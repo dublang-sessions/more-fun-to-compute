@@ -139,7 +139,6 @@ futile.
 .
 you will.
 be assimilated.]], 'typewrite')
-
 espeak("${SCENE}")
 
 #!dublang
