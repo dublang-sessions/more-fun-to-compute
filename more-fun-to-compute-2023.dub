@@ -141,11 +141,6 @@ you will.
 be assimilated.]], 'typewrite')
 espeak("${SCENE}")
 
-#!dublang
-
-sm([[Thank you!
-Bye.]], "typewrite")
-
 #!supercollider
 |repeat 10
 
