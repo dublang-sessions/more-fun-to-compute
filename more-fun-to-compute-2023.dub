@@ -124,7 +124,6 @@ d5
       sound "hh27*8 hh*8?" # speed 0.5 # begin 0.01 # end 0.05 # gain 1.2
     ]
   ]
-  |+ gain 0.1
   # pan (slow 8 sine)
 
 xfadeIn 9 32 $ silence
