@@ -6,7 +6,7 @@ s.scope;
 
 #!obs
 
-scene.set scene0
+scene.set scene1
 
 record.start
 
