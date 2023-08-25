@@ -60,7 +60,7 @@ once
   $ sound "~ [DrumHits:8 DrumHits:9]"
   # orbit 2
   # room 0.1 # size 0.7
-  # gain 1
+  # gain 1.2
 
 xfadeIn 1 32
   $ slow 8
