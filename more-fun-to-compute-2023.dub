@@ -123,6 +123,7 @@ d6
   $ note (palindrome $ scale "dorian" (run 12))
   # sound "bass2"
   # gain 0.8
+  # lpf 800
 
 hush
 
