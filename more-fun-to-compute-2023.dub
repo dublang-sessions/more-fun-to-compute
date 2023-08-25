@@ -116,6 +116,8 @@ d6
   # gain 0.8
   # lpf 800
 
+d6 $ silence
+
 hush
 
 #!obs
