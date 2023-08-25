@@ -37,42 +37,6 @@ vf set ""
 
 ~synth.free;
 
-#!espeak
-
-in the beginning.
-.
-(resistance)
-.
-everyone was happy with the new smartphone release.
-.
-(is)
-.
-full of new interesting features.
-.
-(futile)
-.
-but then the BIG BROTHER app was released and the new era begun.
-.
-(you will be assimilated)
-.
-today is 11 august 2023.
-.
-and.
-.
-and.
-.
-so...
-.
-(it's more fun to compute)
-.
-(it's more fun to compute)
-.
-(it's more fun to compute)
-
-#!mpv
-
-video "videos-12-monkeys:01"
-
 #!supercollider
 
 ~synth.set(\freq, 220);
