@@ -114,7 +114,7 @@ d1
   $ stack [
     note (scale "dorian" "<0 2> <2 4>") # gain 1.4,
     degrade $ note (scale "dorian" (run 4)) |- up (irand 8) # gain 1.4,
-    note "e*16" # gain 1
+    note "e*16" # gain 1.2
   ]
   # sound "superpiano"
   # attack 0.5 # hold 1 # rel 1
