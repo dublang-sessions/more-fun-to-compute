@@ -188,21 +188,7 @@ d8
   # lpf 1500
   # shape 0 # gain 0.7
 
-#!obs
-|repeat 10
 
-scene.set scene${SCENE}
-
-#!tidalcycles
-
-d6
-  $ sometimes (off 0.125 (|+ up 4))
-  $ stut 10 0.75 0.25
-  $ slow 8
-  $ sound "cp cp? cp/2 cp/3"
-  # gain 0.7
-  # vowel "[a|i|o]"
-  # squiz 3
 
 #!supercollider
 |repeat 10
