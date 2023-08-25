@@ -81,8 +81,10 @@ video "videos-12-monkeys:01"
 
 #!tidalcycles
 
-d1 $ sound "cp jazz hoover hh27"
+d1
+  $ sound "cp jazz hoover hh27"
   # n (irand 32)
+  |+ gain (rand * 0.2)
 
 d1
   $ slow 3
