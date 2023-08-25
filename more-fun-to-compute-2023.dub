@@ -54,6 +54,8 @@ d1
   # pan "[0|0.5|1]"
   # gain 0.8 # shape 0.2
 
+d1 $ silence
+
 once
   $ sound "~ [DrumHits:8 DrumHits:9]"
   # orbit 2
