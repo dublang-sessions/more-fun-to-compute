@@ -119,6 +119,7 @@ d5
   # pan (slow 8 sine)
 
 d6
+  $ slow 4
   $ degrade
   $ note (palindrome $ scale "dorian" (run 12))
   # sound "bass2"
