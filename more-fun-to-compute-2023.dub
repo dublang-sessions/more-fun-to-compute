@@ -89,7 +89,7 @@ xfadeIn 4 32
   $ off "-0.25" (|- up 8)
   $ slow 2
   $ stack [
-    note "[<c'maj g'maj>, c2*4]" # gain 0.7,
+    note "[<c'maj g'maj>, c*4]" # gain 0.7,
     degrade $ note (palindrome $ scale "dorian" (run 16)) # gain 0.8
   ]
   # sound "superfm"
