@@ -180,7 +180,7 @@ d7
 
 d7 $ silence
 
-d5
+d8
   $ often (|- speed "0.2")
   $ degradeBy 0.25
   $ note (scale "chromatic" (run 4))
