@@ -105,7 +105,7 @@ xfadeIn 4 32
   # sound "superfm"
   |- gain 0.2
 
-xfadeIn 5 8
+d5
   $ stack [
     sound "[bd, ~ jazz:7?]",
     sound "[bd*2, ~ jazz:7*2]",
