@@ -113,11 +113,7 @@ d5
   $ stack [
     sound "[bd]",
     sound "[bd*2]",
-    sound "[bd*4]",
-    slowcat [
-      sound "hh27*8" # speed 0.5 # begin 0.01 # end 0.05 # gain 1
-      sound "hh27*8 hh*8?" # speed 0.5 # begin 0.01 # end 0.05 # gain 1
-    ]
+    sound "[bd*4]"
   ]
 
 
