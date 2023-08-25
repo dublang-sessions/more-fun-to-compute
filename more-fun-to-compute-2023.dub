@@ -95,7 +95,7 @@ d3
   # cut 3
   |+ gain 0.2
 
-d4
+xfadeIn 4 32
   $ off "-0.25" (|- up 8)
   $ slow 2
   $ stack [
@@ -103,6 +103,7 @@ d4
     degrade $ note (palindrome $ scale "dorian" (run 16)) # gain 0.8
   ]
   # sound "superfm"
+  |- gain 0.2
 
 xfadeIn 5 8
   $ stack [
