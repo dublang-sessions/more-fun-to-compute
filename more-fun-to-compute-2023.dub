@@ -58,7 +58,7 @@ once
   $ sound "~ [DrumHits:8 DrumHits:9]"
   # orbit 1
   # room 0.8 # size 0.9
-  # gain 0.7
+  # gain 0.8
 
 d2
   $ n (run 10)
