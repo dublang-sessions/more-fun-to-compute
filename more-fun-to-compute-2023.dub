@@ -113,7 +113,7 @@ d1
   $ sometimes (stut 2 0.75 0.25)
   $ stack [
     note (scale "dorian" "<0 2> <2 4>"),
-    degrade $ note (scale "dorian" (run 4)) # speed 2
+    degrade $ note (scale "dorian" (run 4)) |+ up 8
   ]
   # sound "superpiano"
   # attack 0.5 # hold 1 # rel 1
