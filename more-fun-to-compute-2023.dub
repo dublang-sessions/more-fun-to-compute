@@ -112,8 +112,7 @@ d4
     degrade $ note (palindrome $ scale "dorian" (run 16)) # gain 0.8
   ]
   # sound "superfm"
-
-d4 $ only
+  # lpf 3000
 
 d5
   $ stack [
