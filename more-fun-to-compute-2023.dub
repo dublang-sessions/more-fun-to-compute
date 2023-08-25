@@ -57,6 +57,7 @@ d1
 xfadeIn 1 8 $ silence
 
 once
+  $ stut 4 0.75 0.25
   $ sound "~ [DrumHits:8 DrumHits:9]"
   # orbit 2
   # room 0.1 # size 0.7
