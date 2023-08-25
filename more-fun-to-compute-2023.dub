@@ -156,8 +156,6 @@ vim.env.SCENE = math.random(7) - 1
 obs("scene.set scene${SCENE}")
 mpv(format('vf set "scroll:v=%s:h=0.001"', (vim.env.RAND * 0.05) - 1))
 espeak("${SCENE}")
-
-
 sm([[resistance.
 is.
 futile.
