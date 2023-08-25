@@ -63,16 +63,6 @@ once
   # gain 1
 
 d2
-  $ n (run 10)
-  # sound "arpy"
-  # gain 0.8
-  # squiz 2
-  |+ squiz (rand * 0.5)
-  # vowel "<a e>"
-  # pan (slow 8 $ sine)
-  |- gain (slow 8 $ sine * 0.4)
-
-d2
   $ gap 4
   $ slow 8
   $ note "[e|c|d]"
@@ -80,8 +70,6 @@ d2
   # pan (slow 3 $ rand)
   # orbit 2
   # gain 0.7
-
-xfadeIn 2 8 $ silence
 
 d3
   $ slow 2
@@ -101,7 +89,7 @@ xfadeIn 4 32
   $ off "-0.25" (|- up 8)
   $ slow 2
   $ stack [
-    note "<c'maj g'maj>" # gain 0.7,
+    note "[<c'maj g'maj>, c2*4]" # gain 0.7,
     degrade $ note (palindrome $ scale "dorian" (run 16)) # gain 0.8
   ]
   # sound "superfm"
