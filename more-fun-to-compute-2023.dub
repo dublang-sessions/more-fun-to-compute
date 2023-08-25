@@ -165,30 +165,6 @@ add vf "colorbalance:rs=-0.2:rm=-0.3:rh=0.2"
 
 scene.set scene4
 
-#!tidalcycles
-
-d7
-  $ slow 4
-  $ degradeBy 0.1
-  $ fast 2
-  $ superimpose (rev)
-  $ sound "jazz:3(5,8)"
-  # speed 1.2
-  # squiz 2.3
-  # gain 1
-  # pan (slow 16 $ sine)
-
-d8 $ silence
-
-d8
-  $ often (|- speed "0.2")
-  $ degradeBy 0.25
-  $ note (scale "chromatic" (run 4))
-  # sound "bass2:3"
-  # lpf 1500
-  # shape 0 # gain 0.7
-
-
 
 #!supercollider
 |repeat 10
@@ -198,77 +174,6 @@ d8
 
 ----- from this poins above are all drafts and snippets ----------
 
-#!mpv
-|repeat 10
-
-video "videos-dune:${VIDEO}"
-
-video "videos-1984:${VIDEO}"
-
-video "videos-12-monkeys:${VIDEO}"
-
-video "videos-blade-runner:${VIDEO}"
-
-vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1"
-
-vf set ""
-
-#!mpv
-
-vf set "cas:strength=${RAND}"
-
-
-vf set "boxblur=luma_radius=12:luma_power=0"
-
-vf set "chromakey=blue"
-
-vf set "colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=2:sizeY=4,cas:strength=0.97"
-
-vf set "chromakey=white,colorbalance:rs=-0.7:rm=-0.9:rh=1,avgblur:sizeX=2:sizeY=4,cas:strength=0.97"
- 
--- Convert source to grayscale: 
-
-seek 10
-
-vf set "colorchannelmixer=.3:.4:.3:0:.3:.4:.3:0:.3:.4:.3"
-
--- Simulate sepia tones: 
-
-vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131"
-
-vf set "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131,chromakey=white,colorize:hue=${COUNT}"
-
-
-
-vf set "tmix=frames=12:weights=1 2 4 5 1 1 1"
-
-vf set "transpose=dir=2:passthrough=portrait"
-
-vf set "vibrance:intensity=1:rbal=-10:gbal=10:bbal=10:alternate=1"
-
-vf set "vignette=1"
-
-vf set "zoompan:z=0"
-
-video filters reference
-https://ffmpeg.org/ffmpeg-filters.html#Video-Filters
-
-seek 1845 absolute
-
-seek -2
-
-ab-loop
-
-
-d7 silence
-
-hush
-
-#!tidalcycles
-
-d7 $ silence
-
--- end --
 
 #!tidalcycles
 
@@ -291,16 +196,6 @@ scene.set scene${SCENE}
 scene.set scene4
 
 #!espeak
-
-#!sm
-
-I'm Joenio
-.
-I use dublang and Debian
-.
-See you next time
-.
-Thank you!
 
 #!mpv
 
