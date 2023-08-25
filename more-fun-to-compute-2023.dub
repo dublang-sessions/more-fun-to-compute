@@ -82,7 +82,7 @@ d3
   # orbit 5 # size 0.5 # room 0.5
   |+ room (rand * 0.4) |+ size (rand * 0.4)
   # cut 3
-  |+ gain 0.4
+  |+ gain 0.5
 
 d4
   $ off "-0.25" (|- up 8)
