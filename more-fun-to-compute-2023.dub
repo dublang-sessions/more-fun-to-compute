@@ -104,6 +104,15 @@ d3 $ silence
 
 xfadeIn 1 16 $ silence
 
+
+d4
+  $ slow 2
+  $ stack [
+    note "<c'maj g'maj>"
+  ]
+  # sound "superfm"
+  # gain 0.8
+
 d4
   $ off "-0.25" (|- up 8)
   $ slow 2
@@ -113,14 +122,6 @@ d4
   ]
   # sound "superfm"
   # gain 0.8
-
-d5
-  $ stack [
-    sound "[bd, ~ jazz:7?]",
-    sound "[bd*2, ~ jazz:7*2]",
-    sound "[bd*4, ~ [~ [jazz:7/3 jazz:7?]]]",
-  ]
-
 
 xfadeIn 5 64
   $ stack [
