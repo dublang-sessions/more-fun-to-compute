@@ -121,7 +121,7 @@ d5
 d6
   $ degrade
   $ note (palindrome $ scale "dorian" (run 12))
-  # sound "808"
+  # sound "bass2"
   # gain 0.8
 
 hush
