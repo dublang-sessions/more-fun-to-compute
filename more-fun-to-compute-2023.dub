@@ -179,7 +179,6 @@ xfadeIn 9 32 $ silence
 scene.set scene1
 
 #!dublang
-
 |repeat 4
 
 local videos = {"videos-dune", "videos-1984", "videos-12-monkeys", "videos-blade-runner"}
@@ -189,9 +188,11 @@ vim.env.RAND = string.format("%f", math.random())
 vim.env.FREQ = math.random(200) + 100
 vim.env.SEED = math.random(99) + 1
 vim.env.SCENE = math.random(7) - 1
-espeak("${SCENE}")
 obs("scene.set scene${SCENE}")
 mpv(format('vf set "scroll:v=%s:h=0.001"', (vim.env.RAND * 0.05) - 1))
+
+
+espeak("${SCENE}")
 sm([[resistance.
 is.
 futile.
