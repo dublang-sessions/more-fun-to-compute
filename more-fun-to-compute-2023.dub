@@ -71,8 +71,7 @@ d2
   |- gain (slow 8 $ sine * 0.4)
 
 d2
-  $ chop 4
-  $ slow 4
+  $ slow 8
   $ note "[e|c|d]"
   # sound "supersiren"
   # gain 0.6 # shape 0
@@ -80,6 +79,7 @@ d2
   |+ shape (rand * 0.1)
   # orbit 2
   |- gain (rand * 0.2)
+  |- up 8
 
 d2 $ silence
 
@@ -115,7 +115,6 @@ d5
     sound "[bd*2]",
     sound "[bd*4]"
   ]
-
 
 
 xfadeIn 5 32
