@@ -119,7 +119,7 @@ xfadeIn 5 8
 
 d6
   $ degrade
-  $ note (scale "dorian" (run 12))
+  $ note (palindrome $ scale "dorian" (run 12))
   $ sound "bass2"
   # gain 0.8
 
