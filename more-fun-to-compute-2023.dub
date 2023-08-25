@@ -112,6 +112,7 @@ d5
 d1
   $ note (scale "dorian" "<0 2>")
   # sound "superpiano"
+  # attack 0.5 # hold 1 # rel 1
 
 #!obs
 
