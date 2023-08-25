@@ -94,7 +94,7 @@ d4
   # sound "superfm"
   |- gain 0.2
 
-xfadeIn 7 64 $ silence
+xfadeIn 8 64 $ silence
 
 d5
   $ off 0.125 (chop 2)
