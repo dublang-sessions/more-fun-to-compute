@@ -103,7 +103,7 @@ d5
     sound "bd*8?",
     slowcat [
       sound "hh27*8" # speed 0.5 # begin 0.01 # end 0.05 # gain 1.2,
-      sound "hh27*8 hh*8?" # speed 0.5 # begin 0.01 # end 0.05 # gain 1.2
+      sound "hh27*8 hh*8?" # speed 0.8 # begin 0.01 # end 0.05 # gain 1.2
     ]
   ]
   # pan (slow 8 sine)
