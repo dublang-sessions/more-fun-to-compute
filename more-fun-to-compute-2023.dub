@@ -153,6 +153,7 @@ be assimilated.]], 'typewrite')
 espeak("${SCENE}")
 
 #!espeak
+|repeat 10
 
 resistance.
 is.
