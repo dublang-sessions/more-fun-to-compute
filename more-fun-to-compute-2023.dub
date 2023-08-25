@@ -141,17 +141,6 @@ you will.
 be assimilated.]], 'typewrite')
 espeak("${SCENE}")
 
-#!supercollider
-|repeat 10
-
-s.freeAll;
-
-~synth.set(\add, 0.8);
-
-~synth.set(\mul, 0.1);
-
-~synth.set(\freq, ${FREQ} * 1.5);
-
 #!espeak
 
 resistance.
@@ -168,32 +157,7 @@ futile.
 you will.
 be assimilated.
 
-#!obs
-
-scene.set scene2
-
 #!mpv
-
-video "videos-blade-runner:04"
-
-video "videos-blade-runner:08"
-
-ab-loop
-
-#!obs
-
-scene.set scene3
-
-#!mpv
-|repeat 5
-
-video "${NAME}:${VIDEO}"
-
-video "videos-dune:${VIDEO}"
-
-video "videos-1984:${VIDEO}"
-
-vf set ""
 
 vf set "colorbalance:rs=-0.2:rm=-0.3:rh=0.2"
 
