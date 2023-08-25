@@ -59,8 +59,8 @@ d1 $ silence
 once
   $ sound "~ [DrumHits:8 DrumHits:9]"
   # orbit 2
-  # room 1 # size 1
-  # gain 1.2
+  # room 0.1 # size 0.7
+  # gain 1
 
 d2 $ silence
 
