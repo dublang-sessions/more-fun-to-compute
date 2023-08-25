@@ -97,6 +97,7 @@ d4
 xfadeIn 4 64 $ silence
 
 d5
+  $ off 0.125 (chop 2)
   $ stack [
     sound "[bd, ~ jazz:7]",
     slowcat [
