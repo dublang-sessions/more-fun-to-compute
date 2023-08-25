@@ -113,6 +113,8 @@ d4
   ]
   # sound "superfm"
 
+only 4
+
 d5
   $ stack [
     sound "[bd, ~ jazz:7?]",
