@@ -175,8 +175,10 @@ d7
   $ sound "jazz:3(5,8)"
   # speed 1.2
   # squiz 2.3
-  # gain 0.8
+  # gain 1
   # pan (slow 16 $ sine)
+
+d7 $ silence
 
 d5
   $ often (|- speed "0.2")
