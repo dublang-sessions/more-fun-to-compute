@@ -119,6 +119,8 @@ d1
   # sound "superpiano"
   # attack 0.5 # hold 1 # rel 1
 
+xfadeIn 1 32 $ silence
+
 
 
 #!obs
