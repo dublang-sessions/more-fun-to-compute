@@ -113,7 +113,7 @@ d4
   ]
   # sound "superfm"
 
-only 4
+only d4
 
 d5
   $ stack [
