@@ -108,16 +108,6 @@ d5
   ]
   # pan (slow 8 sine)
 
-d6
-  $ slow 4
-  $ degrade
-  $ note (palindrome $ scale "dorian" (run 12))
-  # sound "bass2"
-  # gain 0.8
-  # lpf 800
-
-d6 $ silence
-
 hush
 
 #!obs
@@ -125,7 +115,7 @@ hush
 scene.set scene1
 
 #!dublang
-|repeat 4
+|repeat 2
 
 local videos = {"videos-dune", "videos-1984", "videos-12-monkeys", "videos-blade-runner"}
 vim.env.NAME =  videos[math.random(#videos)]
