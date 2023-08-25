@@ -96,10 +96,6 @@ d3
   # cut 3
   |+ gain 0.2
 
-d3 $ silence
-
-xfadeIn 1 16 $ silence
-
 d4
   $ off "-0.25" (|- up 8)
   $ slow 2
@@ -122,7 +118,7 @@ d5
   ]
   # pan (slow 8 sine)
 
-xfadeIn 5 32 $ silence
+xfadeIn 4 32 $ silence
 
 hush
 
