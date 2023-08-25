@@ -45,7 +45,7 @@ vf set ""
 
 #!tidalcycles
 
-d1
+xfadeIn 1 16
   $ slow 3
   $ sound "super808"
   # n "4"
