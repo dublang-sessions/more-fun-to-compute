@@ -2,6 +2,10 @@
 
 s.scope;
 
+teste
+teste
+teste
+
 ~dirt.loadSoundFiles("${HOME}/art/sounds/musicradar-dub-126bpm/*");
 
 #!obs
