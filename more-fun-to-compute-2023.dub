@@ -87,6 +87,7 @@ once
   # gain 1.6
 
 d2
+  $ sometimes (slow 2)
   $ slow 8
   $ note "[e|c|d]"
   # sound "supersiren"
