@@ -32,7 +32,7 @@ edge $ mode canny
 video "videos-1984:01"
 
 colorb
-  $ rs 0.5
+  $ rs 0.1
   $ rh 0.8
   $ rm 0.6
 
