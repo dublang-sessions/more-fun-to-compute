@@ -51,7 +51,10 @@ scroll 0.02 0.001
 video "videos-blade-runner:01"
 amp $ rad 2 $ fac 14 $ thr 2000
 
+-- 6
+
 vf set "curves:preset=color_negative"
+video "videos-blade-runner:02"
 
 chromh $ ble 0.01 $ col blue
 
