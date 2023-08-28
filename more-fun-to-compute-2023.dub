@@ -26,6 +26,23 @@ colorb
   $ rh 0.2
   $ rm 1
 
+edge $ mode canny
+
+scroll 0.99 0.99
+
+chromh $ ble 0.01 $ col blue
+
+bilat
+  $ s 9
+  $ r 0.2
+
+blur
+  $ x 20
+  $ y 20
+
+clr
+
+
 #!supercollider
 
 (
