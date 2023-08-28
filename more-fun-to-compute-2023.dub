@@ -32,6 +32,8 @@ scroll 0.99 0.99
 
 chromh $ ble 0.01 $ col blue
 
+amp $ rad 2 $ fac 14 $ thr 2000
+
 bilat
   $ s 9
   $ r 0.2
@@ -41,7 +43,6 @@ blur
   $ y 2
 
 clr
-
 
 #!supercollider
 
