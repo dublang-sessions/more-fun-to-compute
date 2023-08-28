@@ -42,6 +42,10 @@ scroll 0.99 0.99
 video "videos-12-monkeys:01"
 vf set "negate"
 
+-- 4
+
+scroll 0.1
+
 chromh $ ble 0.01 $ col blue
 
 amp $ rad 2 $ fac 14 $ thr 2000
