@@ -152,7 +152,7 @@ d5
   $ off 0.125 (chop 2)
   $ stack [
     sound "[bd, ~ jazz:7]",
-    sound "[~ bd?, ~ ~ ~ jazz:7?]",
+    sound "[~ bd?, ~ ~ ~ jazz:7?]" # lpf 1000,
     sound "[bd*4?, ~ ~ ~ ~]" # speed 1.4,
     slowcat [
       every 2 (fast 2)
