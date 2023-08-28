@@ -145,7 +145,7 @@ d4
     degradeBy 0.8 $ note (palindrome $ scale "dorian" (run 16)) # gain 1.2
   ]
   # sound "superfm"
-  |- gain 0.2
+  |- gain 0.4
 
 xfadeIn 8 64 $ silence
 
