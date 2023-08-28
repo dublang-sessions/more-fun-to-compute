@@ -24,6 +24,7 @@ vf set ""
 -- 1
 
 video "videos-1984:01"
+
 edge $ mode canny
 
 
