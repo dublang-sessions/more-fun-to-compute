@@ -58,8 +58,7 @@ video "videos-blade-runner:02"
 
 -- 7
 
-video "videos-12-monkeys:02"
-
+video "videos-12-monkeys:03"
 amp $ rad 0.2 $ fac 8 $ thr 1000
 
 bilat
