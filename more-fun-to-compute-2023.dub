@@ -70,7 +70,7 @@ clr
 
 d1
   $ slow 6
-  $ sound "super808*4"
+  $ sound "super808*2"
   # n "4"
   # lpf 400
   # orbit 1 # size 0.3 # room 0.3
