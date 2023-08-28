@@ -153,7 +153,7 @@ d5
   $ stack [
     sound "[bd, ~ jazz:7]",
     sound "[~ bd?, ~ ~ ~ jazz:7?]",
-    sound "[808bd:3*4?, ~ ~ ~ ~]",
+    sound "[808bd:4*4?, ~ ~ ~ ~]",
     slowcat [
       every 2 (fast 2)
         $ sound "hh27*8" # speed 0.7 # begin 0.01 # end 0.05 # gain 1
