@@ -21,17 +21,24 @@ set loop inf
 video "videos-blade-runner:06"
 vf set ""
 
+-- 1
+
+video "videos-1984:01"
+edge $ mode canny
+
+-- 2
+
 video "videos-1984:01"
 colorb
   $ rs 0.5
   $ rh 0.2
   $ rm 1
 
-video "videos-1984:01"
-edge $ mode canny
-
 scroll 0.99 0.99
 
+-- 3
+
+video "videos-12-monkeys:01"
 chromh $ ble 0.01 $ col blue
 
 amp $ rad 2 $ fac 14 $ thr 2000
