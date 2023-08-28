@@ -94,6 +94,7 @@ d2
   # orbit 2
   # gain 0.7
   |- gain (slow 16 $ sine)
+  |- up 8
 
 d3
   $ slow 2
