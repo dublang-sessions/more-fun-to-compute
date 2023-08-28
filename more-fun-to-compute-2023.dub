@@ -86,7 +86,7 @@ once
   # room 0.1 # size 0.7
   # gain 1.6
 
-xfadeIn 1 32
+d2
   $ slow 8
   $ note "[e|c|d]"
   # sound "supersiren"
