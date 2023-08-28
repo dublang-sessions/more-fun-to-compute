@@ -101,6 +101,7 @@ d2
 d5
   $ stack [
     sound "[bd]",
+    sound "[bd*2]"
   ]
 
   # pan (slow 8 sine)
