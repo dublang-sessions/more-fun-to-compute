@@ -37,8 +37,8 @@ bilat
   $ r 0.2
 
 blur
-  $ x 20
-  $ y 20
+  $ x 2
+  $ y 2
 
 clr
 
