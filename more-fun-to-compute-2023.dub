@@ -69,7 +69,7 @@ clr
 #!tidalcycles
 
 d1
-  $ slow 3
+  $ slow 6
   $ sound "super808*4"
   # n "4"
   # lpf 400
