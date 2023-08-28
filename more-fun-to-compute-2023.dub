@@ -97,6 +97,27 @@ d2
   |- gain (slow 16 $ sine)
   |- up 8
 
+
+d5
+  $ stack [
+    sound "[bd]",
+  ]
+
+  # pan (slow 8 sine)
+  # orbit 5 # room 0.8 # size 0.8
+
+d5
+  $ off 0.125 (chop 2)
+  $ stack [
+    sound "[bd, ~ jazz:7]",
+    slowcat [
+      every 2 (fast 2)
+        $ sound "hh27*8" # speed 0.7 # begin 0.01 # end 0.05 # gain 1
+    ]
+  ]
+  # pan (slow 8 sine)
+  # orbit 5 # room 0.8 # size 0.8
+
 d3
   $ slow 2
   $ stack[
