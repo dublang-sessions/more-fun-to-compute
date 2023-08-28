@@ -58,7 +58,7 @@ video "videos-blade-runner:02"
 
 -- 7
 
-chromh $ ble 0.9 $ col black
+chromh $ ble 9 $ col black
 
 
 bilat
