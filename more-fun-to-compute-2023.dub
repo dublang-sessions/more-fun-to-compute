@@ -71,6 +71,7 @@ blur
   $ y 2
 
 clr
+video "videos-blade-runner:05"
 
 #!supercollider
 
