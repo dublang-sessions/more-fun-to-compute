@@ -26,6 +26,8 @@ colorb
   $ rh 0.2
   $ rm 1
 
+video "videos-1984:01"
+
 edge $ mode canny
 
 scroll 0.99 0.99
