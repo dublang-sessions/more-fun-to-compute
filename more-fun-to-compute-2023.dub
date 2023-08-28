@@ -94,7 +94,7 @@ d2
   # pan (slow 8 $ rand)
   # orbit 2
   # gain 0.7
-  |- gain (slow 16 $ sine)
+  |- gain (slow 16 $ sine * 0.7)
   |- up 8
 
 
