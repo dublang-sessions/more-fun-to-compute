@@ -46,6 +46,8 @@ vf set "negate"
 
 scroll 0.02 0.001
 
+video "videos-blade-runner:01"
+
 chromh $ ble 0.01 $ col blue
 
 amp $ rad 2 $ fac 14 $ thr 2000
