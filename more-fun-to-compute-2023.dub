@@ -44,7 +44,7 @@ vf set "negate"
 
 -- 4
 
-scroll 0.1 0.1
+scroll 0.01 0.001
 
 chromh $ ble 0.01 $ col blue
 
