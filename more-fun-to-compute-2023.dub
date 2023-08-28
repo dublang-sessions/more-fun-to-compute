@@ -90,9 +90,10 @@ d2
   $ slow 8
   $ note "[e|c|d]"
   # sound "supersiren"
-  # pan (slow 3 $ rand)
+  # pan (slow 8 $ rand)
   # orbit 2
   # gain 0.7
+  |- gain (slow 16 $ sine)
 
 d3
   $ slow 2
