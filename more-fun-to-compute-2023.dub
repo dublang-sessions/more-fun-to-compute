@@ -157,7 +157,7 @@ d5
     slowcat [
       every 2 (fast 2)
         $ sound "hh27*8" # speed 0.7 # begin 0.01 # end 0.05 # gain 0.9,
-      sound "[hh27,hh27:4]*8?" # speed 0.7 # begin 0.01 # end 0.05 # gain 0.9
+      sound "[hh27*8,hh27:4*8?]" # speed 0.7 # begin 0.01 # end 0.05 # gain 0.9
     ]
   ]
   # pan (slow 8 sine)
