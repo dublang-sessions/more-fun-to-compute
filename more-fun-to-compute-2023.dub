@@ -99,6 +99,7 @@ d2
 
 
 d5
+  $ off 0.125 (chop 2)
   $ stack [
     sound "[bd, ~ [jazz:7/2 ~ jazz:7?]]",
     sound "[[bd*2 bd?], ~ jazz:7*2?]",
