@@ -21,6 +21,11 @@ set loop inf
 video "videos-blade-runner:06"
 vf set ""
 
+colorb
+  $ rs 0.5
+  $ rh 0.2
+  $ rm 1
+
 #!supercollider
 
 (
