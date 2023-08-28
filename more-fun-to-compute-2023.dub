@@ -54,6 +54,7 @@ amp $ rad 2 $ fac 14 $ thr 2000
 -- 6
 
 vf set "curves:preset=color_negative"
+
 video "videos-blade-runner:02"
 
 -- 7
